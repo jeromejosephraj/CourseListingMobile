@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "description": "And student removes applied filter",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "tpWD9eWegq",
+      "position": 65535,
+      "parentStepId": "cbebc81fc10f43601db41ec4189d722c",
+      "params": [
+        {
+          "id": "DWv0FzK5d8",
+          "command": "click",
+          "target": "//*[@id\u003d\"desChipID-1\"]/div/span",
+          "value": "",
+          "parentStepId": "cbebc81fc10f43601db41ec4189d722c"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

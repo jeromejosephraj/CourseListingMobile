@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "description": "Then two courses should be listed in the filtered order \"NoCodeBDDP1\", \"NoCodeBDDP2\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "OpxeeFmFRI",
+      "position": 65535,
+      "parentStepId": "7f89bf42a73b19acf71eb369335d102b",
+      "params": [
+        {
+          "id": "Yp0vXi5OdL",
+          "command": "sleep",
+          "target": "3000",
+          "value": "",
+          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+        },
+        {
+          "id": "pQyVaSlqci",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-1\"]/div/div[2]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+        },
+        {
+          "id": "k7NoFVLdq4",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-2\"]/div/div[2]",
+          "value": "NoCodeBDDP2",
+          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+        },
+        {
+          "id": "lgE7BJBmFM",
+          "command": "defaultWaitForElementPresent",
+          "target": "500",
+          "value": "",
+          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+        },
+        {
+          "id": "b03zWmGdiU",
+          "command": "displayed",
+          "target": "//*[@id\u003d\"courseCardID-3\"]/div/div[2]",
+          "value": "false",
+          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

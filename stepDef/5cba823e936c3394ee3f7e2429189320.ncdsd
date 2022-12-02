@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "Then applied filter option should be removed",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "ry5e1UPADY",
+      "position": 65535,
+      "parentStepId": "5cba823e936c3394ee3f7e2429189320",
+      "params": [
+        {
+          "id": "Ff2ITVhJwg",
+          "command": "defaultWaitForElementPresent",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "5cba823e936c3394ee3f7e2429189320"
+        },
+        {
+          "id": "1z18AthzLM",
+          "command": "displayed",
+          "target": "//*[@id\u003d\"desChipID-1\"]/div/span",
+          "value": "false",
+          "parentStepId": "5cba823e936c3394ee3f7e2429189320"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

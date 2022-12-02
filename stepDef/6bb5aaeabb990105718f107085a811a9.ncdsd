@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "And student waits for the course listing",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "Ckk2o9DATV",
+      "position": 65535,
+      "parentStepId": "6bb5aaeabb990105718f107085a811a9",
+      "params": [
+        {
+          "id": "PGIrAOrKE4",
+          "command": "refresh",
+          "target": "",
+          "value": "",
+          "parentStepId": "6bb5aaeabb990105718f107085a811a9"
+        },
+        {
+          "id": "FvAuRvPI5J",
+          "command": "waitForElementPresent",
+          "target": "//*[@id\u003d\"courseCardID-1\"]/div/div[2]",
+          "value": "15000",
+          "parentStepId": "6bb5aaeabb990105718f107085a811a9"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

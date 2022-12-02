@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "description": "And refresh the browser",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "QxFfeIT2Wp",
+      "position": 65535,
+      "parentStepId": "22f6d17e195422b5da169d812647555c",
+      "params": [
+        {
+          "id": "I7sboADV5N",
+          "command": "refresh",
+          "target": "",
+          "value": "",
+          "parentStepId": "22f6d17e195422b5da169d812647555c"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

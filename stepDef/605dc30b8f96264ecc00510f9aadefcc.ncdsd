@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "description": "When student applies a filter \"NoCodeBDDP1\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "NGSWlGvj6S",
+      "position": 65535,
+      "parentStepId": "605dc30b8f96264ecc00510f9aadefcc",
+      "params": [
+        {
+          "id": "Huh4tVB9wG",
+          "command": "click",
+          "target": "//*[@id\u003d\"overflowIssue\"]/div[2]/div",
+          "value": "",
+          "parentStepId": "605dc30b8f96264ecc00510f9aadefcc"
+        },
+        {
+          "id": "HqBnPAwTck",
+          "command": "click",
+          "target": "//*[@id\u003d\"p-tabpanel-0-label\"]",
+          "value": "",
+          "parentStepId": "605dc30b8f96264ecc00510f9aadefcc"
+        },
+        {
+          "id": "2Am8KdvVnD",
+          "command": "click",
+          "target": "//label[@for\u003d\"NoCodeBDDP1\"]",
+          "value": "",
+          "parentStepId": "605dc30b8f96264ecc00510f9aadefcc"
+        },
+        {
+          "id": "5KkGvzEqhc",
+          "command": "click",
+          "target": "//*[@id\u003d\"filterApplyID\"]",
+          "value": "",
+          "parentStepId": "605dc30b8f96264ecc00510f9aadefcc"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

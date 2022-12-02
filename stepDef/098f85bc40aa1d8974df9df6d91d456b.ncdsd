@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "description": "And apply the selected filter",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "IXMdJVj6sX",
+      "position": 65535,
+      "parentStepId": "098f85bc40aa1d8974df9df6d91d456b",
+      "params": [
+        {
+          "id": "PqiVC9Ysi7",
+          "command": "click",
+          "target": "//*[@id\u003d\"filterApplyID\"]",
+          "value": "",
+          "parentStepId": "098f85bc40aa1d8974df9df6d91d456b"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

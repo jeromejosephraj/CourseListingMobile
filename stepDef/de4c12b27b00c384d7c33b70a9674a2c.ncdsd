@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "description": "Then student should be able to view filters menu",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "0jDZonntqm",
+      "position": 65535,
+      "parentStepId": "de4c12b27b00c384d7c33b70a9674a2c",
+      "params": [
+        {
+          "id": "thjJji4yDV",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"headerLabelID\"]",
+          "value": "Filters",
+          "parentStepId": "de4c12b27b00c384d7c33b70a9674a2c"
+        },
+        {
+          "id": "sjpvW4sIrJ",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"p-tabpanel-0-label\"]/span",
+          "value": "Progress",
+          "parentStepId": "de4c12b27b00c384d7c33b70a9674a2c"
+        },
+        {
+          "id": "3QKjsRj4R3",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"p-tabpanel-1-label\"]/span",
+          "value": "Sort By",
+          "parentStepId": "de4c12b27b00c384d7c33b70a9674a2c"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

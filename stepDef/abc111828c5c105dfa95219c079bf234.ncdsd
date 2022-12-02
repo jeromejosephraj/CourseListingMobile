@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "description": "Then courses only four courses should be listing in the order \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\" and \"NoCodeBDDP4\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "kOQQ4cq99a",
+      "position": 65535,
+      "parentStepId": "abc111828c5c105dfa95219c079bf234",
+      "params": [
+        {
+          "id": "Fuj7HM3T6e",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-1\"]/div/div[2]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "abc111828c5c105dfa95219c079bf234"
+        },
+        {
+          "id": "nTB8FS4BYt",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-2\"]/div/div[2]",
+          "value": "NoCodeBDDP2",
+          "parentStepId": "abc111828c5c105dfa95219c079bf234"
+        },
+        {
+          "id": "DRWFkavxqU",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-3\"]/div/div[2]",
+          "value": "NoCodeBDDP3",
+          "parentStepId": "abc111828c5c105dfa95219c079bf234"
+        },
+        {
+          "id": "3lBHZ0kBRD",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-4\"]/div/div[2]",
+          "value": "NoCodeBDDP4",
+          "parentStepId": "abc111828c5c105dfa95219c079bf234"
+        },
+        {
+          "id": "h0c1kAyN9C",
+          "command": "defaultWaitForElementPresent",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "abc111828c5c105dfa95219c079bf234"
+        },
+        {
+          "id": "V84PDDQuqe",
+          "command": "displayed",
+          "target": "//*[@id\u003d\"courseCardID-5\"]/div/div[2]",
+          "value": "false",
+          "parentStepId": "abc111828c5c105dfa95219c079bf234"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

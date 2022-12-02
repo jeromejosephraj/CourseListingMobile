@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "description": "Then courses should be listed in the sorted order \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "ydKvW8iFTz",
+      "position": 65535,
+      "parentStepId": "4d324bf45fc320eef1392237bbbd2bbf",
+      "params": [
+        {
+          "id": "BFAjjYOKDc",
+          "command": "sleep",
+          "target": "3000",
+          "value": "",
+          "parentStepId": "4d324bf45fc320eef1392237bbbd2bbf"
+        },
+        {
+          "id": "22gncc9l8S",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-1\"]/div/div[2]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "4d324bf45fc320eef1392237bbbd2bbf"
+        },
+        {
+          "id": "jyLZbsuFwh",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-2\"]/div/div[2]",
+          "value": "NoCodeBDDP2",
+          "parentStepId": "4d324bf45fc320eef1392237bbbd2bbf"
+        },
+        {
+          "id": "3lckX3cfz8",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-3\"]/div/div[2]",
+          "value": "NoCodeBDDP3",
+          "parentStepId": "4d324bf45fc320eef1392237bbbd2bbf"
+        },
+        {
+          "id": "jLjqZoAxw5",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-4\"]/div/div[2]",
+          "value": "NoCodeBDDP4",
+          "parentStepId": "4d324bf45fc320eef1392237bbbd2bbf"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

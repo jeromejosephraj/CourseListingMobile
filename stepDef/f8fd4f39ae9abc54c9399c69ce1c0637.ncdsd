@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "description": "And student searches with course name \"NoCodeBDDP1\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "TnvtIghN9d",
+      "position": 65535,
+      "parentStepId": "f8fd4f39ae9abc54c9399c69ce1c0637",
+      "params": [
+        {
+          "id": "c9ELGeAy3A",
+          "command": "type",
+          "target": "//*[@id\u003d\"mycsearch\"]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "f8fd4f39ae9abc54c9399c69ce1c0637"
+        },
+        {
+          "id": "LuWNy8vB1N",
+          "command": "sleep",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "f8fd4f39ae9abc54c9399c69ce1c0637"
+        },
+        {
+          "id": "CHglEJgFAM",
+          "command": "keyboardaction",
+          "target": "keyPress",
+          "value": "VK_ENTER",
+          "parentStepId": "f8fd4f39ae9abc54c9399c69ce1c0637"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

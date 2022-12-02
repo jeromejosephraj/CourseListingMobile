@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "description": "And student selects a course \"NoCodeBDDP1\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "EF8Q2QK6Ao",
+      "position": 65535,
+      "parentStepId": "5eb41ab355e35d98a35f243450685e4c",
+      "params": [
+        {
+          "id": "YUqdi3XrS9",
+          "command": "refresh",
+          "target": "",
+          "value": "",
+          "parentStepId": "5eb41ab355e35d98a35f243450685e4c"
+        },
+        {
+          "id": "UwBImO8JZl",
+          "command": "scrollToElement",
+          "target": "//div[text()\u003d\u0027NoCodeBDDP1\u0027]",
+          "value": "",
+          "parentStepId": "5eb41ab355e35d98a35f243450685e4c"
+        },
+        {
+          "id": "BbtKKvnIcN",
+          "command": "sleep",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "5eb41ab355e35d98a35f243450685e4c"
+        },
+        {
+          "id": "hB2eeMP7tG",
+          "command": "click",
+          "target": "//div[text()\u003d\u0027NoCodeBDDP1\u0027]",
+          "value": "",
+          "parentStepId": "5eb41ab355e35d98a35f243450685e4c"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

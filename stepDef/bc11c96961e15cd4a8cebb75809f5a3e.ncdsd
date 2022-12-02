@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "When student selects a filter option \"NoCodeBDDP1\" from filters menu",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "gJo2tc2YYa",
+      "position": 65535,
+      "parentStepId": "bc11c96961e15cd4a8cebb75809f5a3e",
+      "params": [
+        {
+          "id": "Jq1L91JeBh",
+          "command": "click",
+          "target": "//label[text()\u003d\"NoCodeBDDP1\"]",
+          "value": "",
+          "parentStepId": "bc11c96961e15cd4a8cebb75809f5a3e"
+        },
+        {
+          "id": "bkOVfwFjpG",
+          "command": "click",
+          "target": "//*[@id\u003d\"filterApplyID\"]/div/div",
+          "value": "",
+          "parentStepId": "bc11c96961e15cd4a8cebb75809f5a3e"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

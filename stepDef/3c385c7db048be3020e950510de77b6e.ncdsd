@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "description": "Then student should view all sort by options",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "2NmV9o4uE6",
+      "position": 65535,
+      "parentStepId": "3c385c7db048be3020e950510de77b6e",
+      "params": [
+        {
+          "id": "raNZIT3wbC",
+          "command": "gettext",
+          "target": "//label[text()\u003d\"A - Z\"]",
+          "value": "A - Z",
+          "parentStepId": "3c385c7db048be3020e950510de77b6e"
+        },
+        {
+          "id": "wPVQI4DkCM",
+          "command": "gettext",
+          "target": "//label[text()\u003d\"Z - A\"]",
+          "value": "Z - A",
+          "parentStepId": "3c385c7db048be3020e950510de77b6e"
+        },
+        {
+          "id": "442L9WdC1F",
+          "command": "gettext",
+          "target": "//label[text()\u003d\"Complete percent: 100% - 0%\"]",
+          "value": "Complete percent: 100% - 0%",
+          "parentStepId": "3c385c7db048be3020e950510de77b6e"
+        },
+        {
+          "id": "vQ7HUUu4wE",
+          "command": "gettext",
+          "target": "//label[text()\u003d\"Complete percent: 0% - 100%\"]",
+          "value": "Complete percent: 0% - 100%",
+          "parentStepId": "3c385c7db048be3020e950510de77b6e"
+        },
+        {
+          "id": "9ntgZiuLWE",
+          "command": "gettext",
+          "target": "//label[text()\u003d\"Recently enrolled\"]",
+          "value": "Recently enrolled",
+          "parentStepId": "3c385c7db048be3020e950510de77b6e"
+        },
+        {
+          "id": "bLesbobvBH",
+          "command": "gettext",
+          "target": "//label[text()\u003d\"Recent accessed\"]",
+          "value": "Recent accessed",
+          "parentStepId": "3c385c7db048be3020e950510de77b6e"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

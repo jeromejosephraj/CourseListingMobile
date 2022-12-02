@@ -1,0 +1,93 @@
+{
+  "id": "",
+  "description": "And delete the expired courses \"NoCodeBDDP1\", \"NoCodeBDDP2\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [
+    {
+      "id": "Y0khzc8luJ",
+      "httpMethod": "DELETE",
+      "url": "https://api.exam.ly/api/courses",
+      "requestBody": "{\n    \"c_ids\": [\n        \"{{expFirstCourseID}}\"\n    ]\n}",
+      "requestBodyType": "raw",
+      "parentStepId": "e1faeb6a506aad154d131521a8dab2e9",
+      "position": 65535,
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+      "restParamTOs": [],
+      "restHeaderTOs": [
+        {
+          "id": "NTzevxSdk0",
+          "key": "Content-Type",
+          "value": "application/json",
+          "stepRestUrlSettingId": "Y0khzc8luJ",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "kzsIvhe2CL",
+          "key": "User-Agent",
+          "value": "NoCodeBDD",
+          "stepRestUrlSettingId": "Y0khzc8luJ",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "b53GfFtxG9",
+          "key": "Authorization",
+          "value": "{{adminToken}}",
+          "stepRestUrlSettingId": "Y0khzc8luJ",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
+      "restMultiPartTOs": []
+    },
+    {
+      "id": "N4yHFkbr2O",
+      "httpMethod": "DELETE",
+      "url": "https://api.exam.ly/api/courses",
+      "requestBody": "{\n    \"c_ids\": [\n        \"{{expSecondCourseID}}\"\n    ]\n}",
+      "requestBodyType": "raw",
+      "parentStepId": "e1faeb6a506aad154d131521a8dab2e9",
+      "position": 131070,
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+      "restParamTOs": [],
+      "restHeaderTOs": [
+        {
+          "id": "04trwWGqpd",
+          "key": "Content-Type",
+          "value": "application/json",
+          "stepRestUrlSettingId": "N4yHFkbr2O",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "fxCKwd6O8F",
+          "key": "User-Agent",
+          "value": "NoCodeBDD",
+          "stepRestUrlSettingId": "N4yHFkbr2O",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "K40g3ja3Hg",
+          "key": "Authorization",
+          "value": "{{adminToken}}",
+          "stepRestUrlSettingId": "N4yHFkbr2O",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
+      "restMultiPartTOs": []
+    }
+  ],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

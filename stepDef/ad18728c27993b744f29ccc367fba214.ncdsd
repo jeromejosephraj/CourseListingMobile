@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "And student selects filter button",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "GyNWY2ujKW",
+      "position": 65535,
+      "parentStepId": "ad18728c27993b744f29ccc367fba214",
+      "params": [
+        {
+          "id": "J62NMkML3B",
+          "command": "click",
+          "target": "//*[@id\u003d\"filterTitleID\"]",
+          "value": "",
+          "parentStepId": "ad18728c27993b744f29ccc367fba214"
+        },
+        {
+          "id": "tED2eGoymF",
+          "command": "sleep",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "ad18728c27993b744f29ccc367fba214"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "description": "And selects \"NoCodeBDDP1\" filter option",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "44esiSx9d3",
+      "position": 65535,
+      "parentStepId": "59e1822772ce733ccaa9736754c42046",
+      "params": [
+        {
+          "id": "Znfq7GZ8TD",
+          "command": "click",
+          "target": "//label[@for\u003d\"NoCodeBDDP1\"]",
+          "value": "",
+          "parentStepId": "59e1822772ce733ccaa9736754c42046"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

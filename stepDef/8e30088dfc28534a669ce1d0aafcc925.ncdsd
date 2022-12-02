@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "description": "Then student should be view details like courses enrolled, courses completed, super badges and badges in the homepage",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "OzoP34E6Cx",
+      "position": 65535,
+      "parentStepId": "8e30088dfc28534a669ce1d0aafcc925",
+      "params": [
+        {
+          "id": "WoPdOcgb4J",
+          "command": "gettext",
+          "target": "(//*[@id\u003d\"mobBadgeTitleID\"])[1]",
+          "value": "Courses Enrolled",
+          "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
+        },
+        {
+          "id": "zuaHlHQBN2",
+          "command": "gettext",
+          "target": "(//*[@id\u003d\"mobBadgeTitleID\"])[2]",
+          "value": "Courses Completed",
+          "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
+        },
+        {
+          "id": "pUQdbD0HrQ",
+          "command": "scrollToElement",
+          "target": "(//*[@id\u003d\"mobBadgeTitleID\"])[3]",
+          "value": "",
+          "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
+        },
+        {
+          "id": "TG2CqvbaFb",
+          "command": "gettext",
+          "target": "(//*[@id\u003d\"mobBadgeTitleID\"])[3]",
+          "value": "Super Badges",
+          "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
+        },
+        {
+          "id": "xGlubKgzSu",
+          "command": "scrollToElement",
+          "target": "(//*[@id\u003d\"mobBadgeTitleID\"])[4]",
+          "value": "",
+          "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
+        },
+        {
+          "id": "LI67MfByWt",
+          "command": "gettext",
+          "target": "(//*[@id\u003d\"mobBadgeTitleID\"])[4]",
+          "value": "Badges",
+          "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

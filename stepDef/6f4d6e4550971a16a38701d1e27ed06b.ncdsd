@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "And student selects view more option",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "ah5F20f9fY",
+      "position": 65535,
+      "parentStepId": "6f4d6e4550971a16a38701d1e27ed06b",
+      "params": [
+        {
+          "id": "YR2afurAoL",
+          "command": "click",
+          "target": "//*[@id\u003d\"recentActivityID\"]/div[1]/div[2]",
+          "value": "",
+          "parentStepId": "6f4d6e4550971a16a38701d1e27ed06b"
+        },
+        {
+          "id": "3M2SAVitFA",
+          "command": "sleep",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "6f4d6e4550971a16a38701d1e27ed06b"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

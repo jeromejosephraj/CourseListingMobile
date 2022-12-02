@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "And student removes the sort option",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "MOcu7IhW0T",
+      "position": 65535,
+      "parentStepId": "1bd5e821cc7cb97542ec0055f4629665",
+      "params": [
+        {
+          "id": "dOgHmVhJD9",
+          "command": "scrollToElement",
+          "target": "//*[@id\u003d\"desChipID-1\"]/div/span",
+          "value": "",
+          "parentStepId": "1bd5e821cc7cb97542ec0055f4629665"
+        },
+        {
+          "id": "kPIC87FJOP",
+          "command": "click",
+          "target": "//*[@id\u003d\"desChipID-1\"]/div/span",
+          "value": "",
+          "parentStepId": "1bd5e821cc7cb97542ec0055f4629665"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

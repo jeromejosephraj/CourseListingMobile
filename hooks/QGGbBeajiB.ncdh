@@ -1,0 +1,107 @@
+{
+  "id": "QGGbBeajiB",
+  "description": "Admin requests for authorization with valid details",
+  "method": "Before",
+  "hookOrder": "2",
+  "stepDefId": "nXFOWY52qI",
+  "stepId": "YVH7SV6em8",
+  "position": 131070,
+  "stepTO": {
+    "id": "YVH7SV6em8",
+    "description": "Given HookId:QGGbBeajiBAdmin requests for authorization with valid details",
+    "scenarioId": "QGGbBeajiB",
+    "pos": 65535,
+    "dbConnectionTOs": [],
+    "dbsqlTOs": [],
+    "dbAssertTOs": [],
+    "uiTOs": [],
+    "uiAssertTOs": [],
+    "stepmobileUITOs": [],
+    "stepAssertSettingTOs": [],
+    "stepRESTURLSettingTOs": [
+      {
+        "id": "GCP5AZBgBv",
+        "httpMethod": "POST",
+        "url": "https://api.exam.ly/api/users/login",
+        "requestBody": "{\n    \"OS\": \"Windows\",\n    \"email\": \"democollege@examly.in\",\n    \"googleToken\": \"dsfsfsdfdsfmdfsfsfdfsdfs\",\n    \"password\": \"examly@123\",\n    \"school_code\": \"angular13535\"\n}",
+        "requestBodyType": "raw",
+        "stepId": "YVH7SV6em8",
+        "parentStepId": "41718ac67cf5d04115b34cfef791598a",
+        "position": 65535,
+        "createdTimeStamp": "2022-12-02T10:48:49.598+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "Ta9zxacFgH",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "YVH7SV6em8",
+            "stepRestUrlSettingId": "GCP5AZBgBv",
+            "createdTimeStamp": "2022-12-02T10:48:49.598+0530"
+          },
+          {
+            "id": "HWdpldbttL",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "YVH7SV6em8",
+            "stepRestUrlSettingId": "GCP5AZBgBv",
+            "createdTimeStamp": "2022-12-02T10:48:49.598+0530"
+          },
+          {
+            "id": "hr3xUqaHVs",
+            "key": "Origin",
+            "value": "https://admin.angular13535.exam.ly/",
+            "stepId": "YVH7SV6em8",
+            "stepRestUrlSettingId": "GCP5AZBgBv",
+            "createdTimeStamp": "2022-12-02T10:48:49.598+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      }
+    ],
+    "stepWaitTimeTOs": [],
+    "stepMQSendTOs": [],
+    "stepMQAssertTOs": [],
+    "customProjectTOS": [],
+    "customCodeTOS": [],
+    "restJsonPathAssertTOS": [],
+    "mobileCustomCodeTOS": [],
+    "saveValuesTOS": [
+      {
+        "id": "58lP8cPj9D",
+        "position": 131070,
+        "stepId": "YVH7SV6em8",
+        "parentStepId": "41718ac67cf5d04115b34cfef791598a",
+        "params": [
+          {
+            "id": "PMwrp5W6sM",
+            "key": "adminToken",
+            "value": "$.token"
+          },
+          {
+            "id": "1KtwH2CuQg",
+            "key": "sessionID",
+            "value": "StringID(12)"
+          }
+        ]
+      }
+    ]
+  },
+  "tags": [
+    {
+      "id": "KsLSy3VguG",
+      "description": "Student Test",
+      "createdTimeStamp": "2022-10-04T00:28:10.484+0530"
+    },
+    {
+      "id": "67zLn91VDQ",
+      "description": "Student Course List",
+      "createdTimeStamp": "2022-10-10T12:16:19.054+0530"
+    },
+    {
+      "id": "d5OMva0oqi",
+      "description": "Student Course Details",
+      "createdTimeStamp": "2022-10-19T14:42:41.456+0530"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "Then \"NoCodeBDDP1\" sort should be shown next to filters in mobile view",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "89nVlJy6x6",
+      "position": 65535,
+      "parentStepId": "d56a13f7da704cd767a724541e78e68b",
+      "params": [
+        {
+          "id": "6HaLLFx8G8",
+          "command": "scrollToElement",
+          "target": "//*[@id\u003d\"desChipID-1\"]/div/div",
+          "value": "",
+          "parentStepId": "d56a13f7da704cd767a724541e78e68b"
+        },
+        {
+          "id": "R6xq1g47tS",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"desChipID-1\"]/div/div",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "d56a13f7da704cd767a724541e78e68b"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "description": "Then courses should be listed in the sorted order \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\" , \"NoCodeBDDP4\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "3GK5uExO7q",
+      "position": 65535,
+      "parentStepId": "e3e29335d861b21a8b06e0ab3d123d27",
+      "params": [
+        {
+          "id": "dGj3cALD2u",
+          "command": "sleep",
+          "target": "3000",
+          "value": "",
+          "parentStepId": "e3e29335d861b21a8b06e0ab3d123d27"
+        },
+        {
+          "id": "W8Ypl0PXw7",
+          "command": "gettext",
+          "target": "//app-user-card[1]/div/div[2]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "e3e29335d861b21a8b06e0ab3d123d27"
+        },
+        {
+          "id": "sWHX232YWB",
+          "command": "gettext",
+          "target": "//app-user-card[2]/div/div[2]",
+          "value": "NoCodeBDDP2",
+          "parentStepId": "e3e29335d861b21a8b06e0ab3d123d27"
+        },
+        {
+          "id": "mG9B8kYVCP",
+          "command": "gettext",
+          "target": "//app-user-card[3]/div/div[2]",
+          "value": "NoCodeBDDP3",
+          "parentStepId": "e3e29335d861b21a8b06e0ab3d123d27"
+        },
+        {
+          "id": "w3aAiCxvTj",
+          "command": "gettext",
+          "target": "//app-user-card[4]/div/div[2]",
+          "value": "NoCodeBDDP4",
+          "parentStepId": "e3e29335d861b21a8b06e0ab3d123d27"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

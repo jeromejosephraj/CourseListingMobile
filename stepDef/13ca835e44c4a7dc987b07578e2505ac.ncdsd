@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "And student selects an excel content \"NoCodeBDDP1\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "hEo90Pqskd",
+      "position": 65535,
+      "parentStepId": "13ca835e44c4a7dc987b07578e2505ac",
+      "params": [
+        {
+          "id": "x0BTGkNeJl",
+          "command": "click",
+          "target": "//span[text()\u003d\"NoCodeBDDP1\"]",
+          "value": "",
+          "parentStepId": "13ca835e44c4a7dc987b07578e2505ac"
+        },
+        {
+          "id": "iS9Waex1FX",
+          "command": "sleep",
+          "target": "800",
+          "value": "",
+          "parentStepId": "13ca835e44c4a7dc987b07578e2505ac"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

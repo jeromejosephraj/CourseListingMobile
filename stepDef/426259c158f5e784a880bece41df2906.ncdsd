@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "When student selects a sort \"NoCodeBDDP1\" using sort dropdown",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "t88vj2ycXu",
+      "position": 65535,
+      "parentStepId": "426259c158f5e784a880bece41df2906",
+      "params": [
+        {
+          "id": "4McxfuXOth",
+          "command": "click",
+          "target": "//*[@id\u003d\"mobSortDropID\"]/input",
+          "value": "",
+          "parentStepId": "426259c158f5e784a880bece41df2906"
+        },
+        {
+          "id": "KLJgQbss0T",
+          "command": "click",
+          "target": "//p[text()\u003d\"NoCodeBDDP1\"]",
+          "value": "",
+          "parentStepId": "426259c158f5e784a880bece41df2906"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

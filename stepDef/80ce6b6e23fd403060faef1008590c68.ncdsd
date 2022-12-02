@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "Then student should not see the count",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "OfbKOi1rLe",
+      "position": 65535,
+      "parentStepId": "80ce6b6e23fd403060faef1008590c68",
+      "params": [
+        {
+          "id": "mTcD3IsIF6",
+          "command": "defaultWaitForElementPresent",
+          "target": "500",
+          "value": "",
+          "parentStepId": "80ce6b6e23fd403060faef1008590c68"
+        },
+        {
+          "id": "OaTl0Fi6c4",
+          "command": "displayed",
+          "target": "//*[@id\u003d\"filterCountID\"]",
+          "value": "false",
+          "parentStepId": "80ce6b6e23fd403060faef1008590c68"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

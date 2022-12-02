@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "description": "Then student should be view details like number of courses enrolled, courses completed in the homepage",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "BCCQ6VSIB6",
+      "position": 65535,
+      "parentStepId": "57147048f02926e0f93b72036a53bc11",
+      "params": [
+        {
+          "id": "dJNrrPBt0r",
+          "command": "gettext",
+          "target": "(//*[@id\u003d\"mobBadgeValueID\"])[1]",
+          "value": "4",
+          "parentStepId": "57147048f02926e0f93b72036a53bc11"
+        },
+        {
+          "id": "DFpIUZGJ9A",
+          "command": "gettext",
+          "target": "(//*[@id\u003d\"mobBadgeValueID\"])[2]",
+          "value": "0",
+          "parentStepId": "57147048f02926e0f93b72036a53bc11"
+        },
+        {
+          "id": "9zGQPdMdMB",
+          "command": "gettext",
+          "target": "(//*[@id\u003d\"mobBadgeValueID\"])[3]",
+          "value": "0",
+          "parentStepId": "57147048f02926e0f93b72036a53bc11"
+        },
+        {
+          "id": "5fUTCAftoS",
+          "command": "gettext",
+          "target": "(//*[@id\u003d\"mobBadgeValueID\"])[4]",
+          "value": "0",
+          "parentStepId": "57147048f02926e0f93b72036a53bc11"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

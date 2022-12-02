@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "description": "And student selects sort by menu",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "nSJwkiHQwE",
+      "position": 65535,
+      "parentStepId": "13e76a1d2277f685385a0d38ec1b05ae",
+      "params": [
+        {
+          "id": "iUxet1X1jo",
+          "command": "click",
+          "target": "//*[@id\u003d\"p-tabpanel-1-label\"]/span",
+          "value": "",
+          "parentStepId": "13e76a1d2277f685385a0d38ec1b05ae"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

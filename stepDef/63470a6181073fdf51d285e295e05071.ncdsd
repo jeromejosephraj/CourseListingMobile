@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "description": "Then courses only six courses should be listing in the order \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\", \"NoCodeBDDP5\" and \"NoCodeBDDP6\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "59Bd6g2PHD",
+      "position": 65535,
+      "parentStepId": "63470a6181073fdf51d285e295e05071",
+      "params": [
+        {
+          "id": "tmz8BCdOSr",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-1\"]/div/div[2]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "63470a6181073fdf51d285e295e05071"
+        },
+        {
+          "id": "jQEjSxt4pH",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-2\"]/div/div[2]",
+          "value": "NoCodeBDDP2",
+          "parentStepId": "63470a6181073fdf51d285e295e05071"
+        },
+        {
+          "id": "RV5BQGMWW2",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-3\"]/div/div[2]",
+          "value": "NoCodeBDDP3",
+          "parentStepId": "63470a6181073fdf51d285e295e05071"
+        },
+        {
+          "id": "AOD7cJDr7d",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-4\"]/div/div[2]",
+          "value": "NoCodeBDDP4",
+          "parentStepId": "63470a6181073fdf51d285e295e05071"
+        },
+        {
+          "id": "pmEmBC1ruD",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-5\"]/div/div[2]",
+          "value": "NoCodeBDDP5",
+          "parentStepId": "63470a6181073fdf51d285e295e05071"
+        },
+        {
+          "id": "b6UIuQOQYH",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-6\"]/div/div[2]",
+          "value": "NoCodeBDDP6",
+          "parentStepId": "63470a6181073fdf51d285e295e05071"
+        },
+        {
+          "id": "mrXBFCb8R7",
+          "command": "defaultWaitForElementPresent",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "63470a6181073fdf51d285e295e05071"
+        },
+        {
+          "id": "KGFAvv98z5",
+          "command": "displayed",
+          "target": "//*[@id\u003d\"courseCardID-7\"]/div/div[2]",
+          "value": "false",
+          "parentStepId": "63470a6181073fdf51d285e295e05071"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "description": "And student move back to the homepage",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "P9ZqAhHYPh",
+      "position": 65535,
+      "parentStepId": "956c0a205245d8bd300c44c614d46635",
+      "params": [
+        {
+          "id": "eRs4M4eebj",
+          "command": "click",
+          "target": "/html/body/app-root/div/div/app-header/div/div[2]/div/div/div[1]/div[1]",
+          "value": "",
+          "parentStepId": "956c0a205245d8bd300c44c614d46635"
+        },
+        {
+          "id": "kmyIR3gir5",
+          "command": "click",
+          "target": "//div[text()\u003d\"Courses\"]",
+          "value": "",
+          "parentStepId": "956c0a205245d8bd300c44c614d46635"
+        },
+        {
+          "id": "sqc3ko76Ii",
+          "command": "sleep",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "956c0a205245d8bd300c44c614d46635"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "description": "Then student should be able to view the count",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "RKZYrYMMY6",
+      "position": 65535,
+      "parentStepId": "dad398b759cb67f3aa819843ca56a302",
+      "params": [
+        {
+          "id": "GflTpIvy25",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"filterCountID\"]",
+          "value": "1",
+          "parentStepId": "dad398b759cb67f3aa819843ca56a302"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

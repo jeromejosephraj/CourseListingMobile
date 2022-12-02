@@ -1,0 +1,153 @@
+{
+  "id": "KMxaMDDHPH",
+  "description": "Given student login with valid credentials",
+  "method": "Before",
+  "hookOrder": "1",
+  "stepDefId": "fBs6mW1arn",
+  "stepId": "EuseOfqwZn",
+  "position": 65535,
+  "stepTO": {
+    "id": "EuseOfqwZn",
+    "description": "Given HookId:KMxaMDDHPHGiven student login with valid credentials",
+    "scenarioId": "KMxaMDDHPH",
+    "pos": 65535,
+    "dbConnectionTOs": [],
+    "dbsqlTOs": [],
+    "dbAssertTOs": [],
+    "uiTOs": [
+      {
+        "id": "VgdsA7mQGG",
+        "position": 65535,
+        "stepId": "EuseOfqwZn",
+        "parentStepId": "62d54840f75eac2f54a81171fa49aafc",
+        "params": [
+          {
+            "id": "kDrkq4LljH",
+            "stepId": "EuseOfqwZn",
+            "command": "open",
+            "target": "https://angular13535.exam.ly/",
+            "value": "",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "UlBDwNYhFh",
+            "stepId": "EuseOfqwZn",
+            "command": "resizeWindow",
+            "target": "320",
+            "value": "900",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "TP5dGgVkNx",
+            "stepId": "EuseOfqwZn",
+            "command": "defaultWaitForElementPresent",
+            "target": "22000",
+            "value": "",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "sh1wkYqCfO",
+            "stepId": "EuseOfqwZn",
+            "command": "sleep",
+            "target": "2500",
+            "value": "",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "DsRXPAe6UV",
+            "stepId": "EuseOfqwZn",
+            "command": "type",
+            "target": "//*[@id\u003d\"email\"]",
+            "value": "test-user@examly.in",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "kIr4OWs3N1",
+            "stepId": "EuseOfqwZn",
+            "command": "submit",
+            "target": "//*[@id\u003d\"email\"]",
+            "value": "",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "13BEMpR7o7",
+            "stepId": "EuseOfqwZn",
+            "command": "sleep",
+            "target": "4000",
+            "value": "",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "HaPt1gY32M",
+            "stepId": "EuseOfqwZn",
+            "command": "type",
+            "target": "//*[@id\u003d\"password\"]",
+            "value": "test-user",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "Vf6mrmwXwP",
+            "stepId": "EuseOfqwZn",
+            "command": "submit",
+            "target": "//*[@id\u003d\"password\"]",
+            "value": "",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "e0nZGMz01X",
+            "stepId": "EuseOfqwZn",
+            "command": "sleep",
+            "target": "2000",
+            "value": "",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "KjV7wbzBDb",
+            "stepId": "EuseOfqwZn",
+            "command": "waitForElementPresent",
+            "target": "//div[text()\u003d\"Courses\"]",
+            "value": "30000",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          },
+          {
+            "id": "9Zpyoo8PHk",
+            "stepId": "EuseOfqwZn",
+            "command": "defaultWaitForElementPresent",
+            "target": "7000",
+            "value": "",
+            "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
+          }
+        ]
+      }
+    ],
+    "uiAssertTOs": [],
+    "stepmobileUITOs": [],
+    "stepAssertSettingTOs": [],
+    "stepRESTURLSettingTOs": [],
+    "stepWaitTimeTOs": [],
+    "stepMQSendTOs": [],
+    "stepMQAssertTOs": [],
+    "customProjectTOS": [],
+    "customCodeTOS": [],
+    "restJsonPathAssertTOS": [],
+    "mobileCustomCodeTOS": [],
+    "saveValuesTOS": []
+  },
+  "tags": [
+    {
+      "id": "KsLSy3VguG",
+      "description": "Student Test",
+      "createdTimeStamp": "2022-10-04T00:28:10.484+0530"
+    },
+    {
+      "id": "67zLn91VDQ",
+      "description": "Student Course List",
+      "createdTimeStamp": "2022-10-10T12:16:19.054+0530"
+    },
+    {
+      "id": "d5OMva0oqi",
+      "description": "Student Course Details",
+      "createdTimeStamp": "2022-10-19T14:42:41.456+0530"
+    }
+  ]
+}

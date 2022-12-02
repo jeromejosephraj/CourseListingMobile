@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "description": "And student selects progress menu",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "snrEtAeWac",
+      "position": 65535,
+      "parentStepId": "9a784a6d24804cf2fc0652868e4f0471",
+      "params": [
+        {
+          "id": "pGBXZxRGwB",
+          "command": "click",
+          "target": "//*[@id\u003d\"p-tabpanel-0-label\"]/span",
+          "value": "",
+          "parentStepId": "9a784a6d24804cf2fc0652868e4f0471"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

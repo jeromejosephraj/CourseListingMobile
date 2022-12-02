@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "Then student view all the recently viewed courses listing order \"NoCodeBDDP1\", \"NoCodeBDDP2\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "P9NTGkJZBo",
+      "position": 65535,
+      "parentStepId": "6676295d5ce156fc84ffc5a3884d6ab7",
+      "params": [
+        {
+          "id": "cxrF3BBISh",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"recentCourseCardID-1\"]/div/div[2]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "6676295d5ce156fc84ffc5a3884d6ab7"
+        },
+        {
+          "id": "XtyF5YK0cc",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"recentCourseCardID-2\"]/div/div[2]",
+          "value": "NoCodeBDDP2",
+          "parentStepId": "6676295d5ce156fc84ffc5a3884d6ab7"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

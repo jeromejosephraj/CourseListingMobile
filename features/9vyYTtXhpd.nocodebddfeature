@@ -1,0 +1,22 @@
+{
+  "id": "9vyYTtXhpd",
+  "description": "API",
+  "pos": 38993323,
+  "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+  "scenarioTOS": [
+    {
+      "id": "1k3zEVT1yI",
+      "description": "Test",
+      "featureId": "9vyYTtXhpd",
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+      "pos": 65535,
+      "stepTOS": [],
+      "exampleTOs": [],
+      "tagTOs": [],
+      "isManual": false
+    }
+  ],
+  "tagTOs": [],
+  "jiraLinkTOs": [],
+  "isManual": false
+}

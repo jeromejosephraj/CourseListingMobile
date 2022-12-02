@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "description": "Then student should be able to see the course under recently viewed list \"NoCodeBDDP1\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "EcGXZIbN0z",
+      "position": 65535,
+      "parentStepId": "3ab4dba139f83e0097ad8c3bc1915ac2",
+      "params": [
+        {
+          "id": "yKPqbOmsRE",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-NaN\"]/div/div[2]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "3ab4dba139f83e0097ad8c3bc1915ac2"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

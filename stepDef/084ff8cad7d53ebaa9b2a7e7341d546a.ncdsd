@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "description": "Then \"NoCodeBDDP1\" option should be de selected and \"NoCodeBDDP2\" option should be selected",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "JNL6Zfwlk6",
+      "position": 65535,
+      "parentStepId": "084ff8cad7d53ebaa9b2a7e7341d546a",
+      "params": [
+        {
+          "id": "zlo5nKwFNp",
+          "command": "defaultWaitForElementPresent",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "084ff8cad7d53ebaa9b2a7e7341d546a"
+        },
+        {
+          "id": "sOgz9pDxMD",
+          "command": "selected",
+          "target": "//*[@id\u003d\"NoCodeBDDP1\"]",
+          "value": "false",
+          "parentStepId": "084ff8cad7d53ebaa9b2a7e7341d546a"
+        },
+        {
+          "id": "DMW92MeZ8k",
+          "command": "selected",
+          "target": "//*[@id\u003d\"NoCodeBDDP2\"]",
+          "value": "true",
+          "parentStepId": "084ff8cad7d53ebaa9b2a7e7341d546a"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

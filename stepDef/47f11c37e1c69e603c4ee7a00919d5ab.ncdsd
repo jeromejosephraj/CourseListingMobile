@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "When student selects a sort option using sort dropdown",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "TrMqHtUBA6",
+      "position": 65535,
+      "parentStepId": "47f11c37e1c69e603c4ee7a00919d5ab",
+      "params": [
+        {
+          "id": "7VboQsmBYt",
+          "command": "click",
+          "target": "//*[@id\u003d\"mobSortDropID\"]/input",
+          "value": "",
+          "parentStepId": "47f11c37e1c69e603c4ee7a00919d5ab"
+        },
+        {
+          "id": "epsJp0DWg1",
+          "command": "click",
+          "target": "//*[@id\u003d\"mobSortDropID-1\"]/p",
+          "value": "",
+          "parentStepId": "47f11c37e1c69e603c4ee7a00919d5ab"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

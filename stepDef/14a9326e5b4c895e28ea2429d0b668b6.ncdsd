@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "And student should not view the selected sort option",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "7umjpAPsRW",
+      "position": 65535,
+      "parentStepId": "14a9326e5b4c895e28ea2429d0b668b6",
+      "params": [
+        {
+          "id": "JOHvs9Lh1U",
+          "command": "defaultWaitForElementPresent",
+          "target": "500",
+          "value": "",
+          "parentStepId": "14a9326e5b4c895e28ea2429d0b668b6"
+        },
+        {
+          "id": "lhUBxEgyVy",
+          "command": "displayed",
+          "target": "//*[@id\u003d\"desChipID-1\"]/div/div",
+          "value": "false",
+          "parentStepId": "14a9326e5b4c895e28ea2429d0b668b6"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

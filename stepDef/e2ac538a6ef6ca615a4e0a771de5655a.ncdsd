@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "description": "And student removes applied filter \"NoCodeBDDP1\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "paOtBi3OTQ",
+      "position": 65535,
+      "parentStepId": "e2ac538a6ef6ca615a4e0a771de5655a",
+      "params": [
+        {
+          "id": "LKqlwdyBYX",
+          "command": "scrollToElement",
+          "target": "//div[contains(text(),\"NoCodeBDDP1\")]/parent::div/span",
+          "value": "",
+          "parentStepId": "e2ac538a6ef6ca615a4e0a771de5655a"
+        },
+        {
+          "id": "UI5FxS1Wdl",
+          "command": "click",
+          "target": "//div[contains(text(),\"NoCodeBDDP1\")]/parent::div/span",
+          "value": "",
+          "parentStepId": "e2ac538a6ef6ca615a4e0a771de5655a"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}
