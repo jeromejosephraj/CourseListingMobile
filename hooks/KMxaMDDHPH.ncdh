@@ -49,7 +49,7 @@
             "id": "sh1wkYqCfO",
             "stepId": "EuseOfqwZn",
             "command": "sleep",
-            "target": "2500",
+            "target": "3000",
             "value": "",
             "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
           },
