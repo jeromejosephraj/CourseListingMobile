@@ -1,7 +1,7 @@
 {
   "id": "PoIamC0Anq",
   "description": "Mobile Course List - Sort",
-  "pos": 38436275,
+  "pos": 39189928,
   "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
   "scenarioTOS": [
     {
@@ -35,11 +35,11 @@
           "saveValuesTOS": []
         },
         {
-          "id": "z5mol8GXQn",
-          "description": "When admin creates multiple courses with names \"Aptitude\", \"Programming C\", \"Basic Java\", \"Reasoning\"",
+          "id": "6G6SZXg62e",
+          "description": "When admin creates multiple courses with names \"Aptitude\", \"Programming C\", \"Basic Java\", \"Reasoning\" with excel content and a test",
           "scenarioId": "eT07coNLkC",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
-          "pos": 65535,
+          "pos": 49151,
           "dbConnectionTOs": [],
           "dbsqlTOs": [],
           "dbAssertTOs": [],
@@ -82,7 +82,7 @@
         },
         {
           "id": "oypt1hhUxi",
-          "description": "When student selects a sort \" A - Z\" using sort dropdown",
+          "description": "When student selects a sort \" A - Z \" using sort dropdown",
           "scenarioId": "eT07coNLkC",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 147453,
@@ -185,11 +185,11 @@
           "saveValuesTOS": []
         },
         {
-          "id": "fO7bkzLqiI",
-          "description": "When admin creates multiple courses with names \"Aptitude\", \"Programming C\", \"Basic Java\", \"Reasoning\"",
+          "id": "DzVp2KMk7A",
+          "description": "When admin creates multiple courses with names \"Aptitude\", \"Programming C\", \"Basic Java\", \"Reasoning\" with excel content and a test",
           "scenarioId": "vzbKKWo1su",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
-          "pos": 65535,
+          "pos": 49151,
           "dbConnectionTOs": [],
           "dbsqlTOs": [],
           "dbAssertTOs": [],
@@ -232,7 +232,7 @@
         },
         {
           "id": "SFD4NimgxL",
-          "description": "When student selects a sort \" Z - A\" using sort dropdown",
+          "description": "When student selects a sort \" Z - A \" using sort dropdown",
           "scenarioId": "vzbKKWo1su",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 98302,
@@ -566,7 +566,7 @@
         },
         {
           "id": "b9tHfIXV9D",
-          "description": "When student selects a sort \" Complete percent: 100% - 0%\" using sort dropdown",
+          "description": "When student selects a sort \" Complete percent: 100% - 0% \" using sort dropdown",
           "scenarioId": "HvzYGgxjUw",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 168957,
@@ -808,7 +808,7 @@
         },
         {
           "id": "qYrd8Hl57Z",
-          "description": "When student selects a sort \" Recent accessed\" using sort dropdown",
+          "description": "When student selects a sort \" Recent accessed \" using sort dropdown",
           "scenarioId": "P0iCecmRzJ",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 184317,
@@ -1142,7 +1142,7 @@
         },
         {
           "id": "oNNt2H1seO",
-          "description": "When student selects a sort \" Complete percent: 0% - 100%\" using sort dropdown",
+          "description": "When student selects a sort \" Complete percent: 0% - 100% \" using sort dropdown",
           "scenarioId": "B6Y6zt9wN2",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 786420,
@@ -1476,7 +1476,7 @@
         },
         {
           "id": "paEFYl8Nu0",
-          "description": "When student selects a sort \" Recently enrolled\" using sort dropdown",
+          "description": "When student selects a sort \" Recently enrolled \" using sort dropdown",
           "scenarioId": "tRMV9k1XgM",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 786420,
