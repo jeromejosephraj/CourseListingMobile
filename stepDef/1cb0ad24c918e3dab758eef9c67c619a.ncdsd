@@ -1,6 +1,6 @@
 {
   "id": "",
-  "description": "And admin creates multiple courses with names \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\"",
+  "description": "When admin creates multiple courses with names \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\"",
   "scenarioId": "",
   "pos": 0,
   "dbConnectionTOs": [],

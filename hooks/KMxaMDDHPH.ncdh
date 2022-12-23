@@ -25,7 +25,7 @@
             "id": "kDrkq4LljH",
             "stepId": "EuseOfqwZn",
             "command": "open",
-            "target": "https://angular13535.exam.ly/",
+            "target": "{{studentPortalUrl}}",
             "value": "",
             "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
           },
@@ -58,7 +58,7 @@
             "stepId": "EuseOfqwZn",
             "command": "type",
             "target": "//*[@id\u003d\"email\"]",
-            "value": "test-user@examly.in",
+            "value": "{{user1Email}}",
             "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
           },
           {
@@ -82,7 +82,7 @@
             "stepId": "EuseOfqwZn",
             "command": "type",
             "target": "//*[@id\u003d\"password\"]",
-            "value": "test-user",
+            "value": "{{user1Password}}",
             "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
           },
           {
