@@ -23,12 +23,12 @@
         "id": "GCP5AZBgBv",
         "httpMethod": "POST",
         "url": "https://{{baseURL}}/users/login",
-        "requestBody": "{\n    \"OS\": \"Windows\",\n    \"email\": \"democollege@examly.in\",\n    \"googleToken\": \"dsfsfsdfdsfmdfsfsfdfsdfs\",\n    \"password\": \"examly@123\",\n    \"school_code\": \"srv1362\"\n}",
+        "requestBody": "{\n    \"OS\": \"Windows\",\n    \"email\": \"democollege@examly.in\",\n    \"googleToken\": \"dsfsfsdfdsfmdfsfsfdfsdfs\",\n    \"password\": \"examly@123\",\n    \"school_code\": \"{{schoolCode}}\"\n}",
         "requestBodyType": "raw",
         "stepId": "YVH7SV6em8",
         "parentStepId": "41718ac67cf5d04115b34cfef791598a",
         "position": 65535,
-        "createdTimeStamp": "2022-12-22T17:56:23.230+0530",
+        "createdTimeStamp": "2022-12-27T13:46:36.855+0530",
         "restParamTOs": [],
         "restHeaderTOs": [
           {
@@ -37,7 +37,7 @@
             "value": "application/json",
             "stepId": "YVH7SV6em8",
             "stepRestUrlSettingId": "GCP5AZBgBv",
-            "createdTimeStamp": "2022-12-22T17:56:23.230+0530"
+            "createdTimeStamp": "2022-12-27T13:46:36.855+0530"
           },
           {
             "id": "HWdpldbttL",
@@ -45,15 +45,15 @@
             "value": "NoCodeBDD",
             "stepId": "YVH7SV6em8",
             "stepRestUrlSettingId": "GCP5AZBgBv",
-            "createdTimeStamp": "2022-12-22T17:56:23.230+0530"
+            "createdTimeStamp": "2022-12-27T13:46:36.855+0530"
           },
           {
             "id": "hr3xUqaHVs",
             "key": "Origin",
-            "value": "https://admin.srv1362.examly.net/",
+            "value": "{{serverURL}}",
             "stepId": "YVH7SV6em8",
             "stepRestUrlSettingId": "GCP5AZBgBv",
-            "createdTimeStamp": "2022-12-22T17:56:23.230+0530"
+            "createdTimeStamp": "2022-12-27T13:46:36.855+0530"
           }
         ],
         "restMultiPartTOs": []
