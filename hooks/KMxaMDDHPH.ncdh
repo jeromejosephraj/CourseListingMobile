@@ -1,7 +1,7 @@
 {
   "id": "KMxaMDDHPH",
   "description": "Given student login with valid credentials",
-  "method": "Before",
+  "method": "BeforeAll",
   "hookOrder": "1",
   "stepDefId": "fBs6mW1arn",
   "stepId": "EuseOfqwZn",
@@ -133,21 +133,5 @@
     "mobileCustomCodeTOS": [],
     "saveValuesTOS": []
   },
-  "tags": [
-    {
-      "id": "KsLSy3VguG",
-      "description": "Student Test",
-      "createdTimeStamp": "2022-10-04T00:28:10.484+0530"
-    },
-    {
-      "id": "67zLn91VDQ",
-      "description": "Student Course List",
-      "createdTimeStamp": "2022-10-10T12:16:19.054+0530"
-    },
-    {
-      "id": "d5OMva0oqi",
-      "description": "Student Course Details",
-      "createdTimeStamp": "2022-10-19T14:42:41.456+0530"
-    }
-  ]
+  "tags": []
 }

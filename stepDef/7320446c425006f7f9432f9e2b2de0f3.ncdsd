@@ -1,6 +1,6 @@
 {
   "id": "",
-  "description": "Then two courses should be listed in the filtered order \"NoCodeBDDP1\", \"NoCodeBDDP2\"",
+  "description": "Then two courses should be filtered \"NoCodeBDDP1\", \"NoCodeBDDP2\"",
   "scenarioId": "",
   "pos": 0,
   "dbConnectionTOs": [],
@@ -8,44 +8,44 @@
   "dbAssertTOs": [],
   "uiTOs": [
     {
-      "id": "OpxeeFmFRI",
+      "id": "2QWPtaVZcM",
       "position": 65535,
-      "parentStepId": "7f89bf42a73b19acf71eb369335d102b",
+      "parentStepId": "7320446c425006f7f9432f9e2b2de0f3",
       "params": [
         {
-          "id": "Yp0vXi5OdL",
+          "id": "UhJBIvzbvf",
           "command": "sleep",
           "target": "3000",
           "value": "",
-          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+          "parentStepId": "7320446c425006f7f9432f9e2b2de0f3"
         },
         {
-          "id": "pQyVaSlqci",
-          "command": "gettext",
-          "target": "//*[@id\u003d\"courseCardID-1\"]/div/div[2]",
-          "value": "NoCodeBDDP1",
-          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+          "id": "hNhKuWXNkv",
+          "command": "displayed",
+          "target": "//div[text()\u003d\u0027NoCodeBDDP1\u0027]",
+          "value": "true",
+          "parentStepId": "7320446c425006f7f9432f9e2b2de0f3"
         },
         {
-          "id": "k7NoFVLdq4",
-          "command": "gettext",
-          "target": "//*[@id\u003d\"courseCardID-2\"]/div/div[2]",
-          "value": "NoCodeBDDP2",
-          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+          "id": "gcDOBmnj74",
+          "command": "displayed",
+          "target": "//div[text()\u003d\u0027NoCodeBDDP2\u0027]",
+          "value": "true",
+          "parentStepId": "7320446c425006f7f9432f9e2b2de0f3"
         },
         {
-          "id": "lgE7BJBmFM",
+          "id": "4wzhzetJC9",
           "command": "defaultWaitForElementPresent",
           "target": "500",
           "value": "",
-          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+          "parentStepId": "7320446c425006f7f9432f9e2b2de0f3"
         },
         {
-          "id": "b03zWmGdiU",
+          "id": "wh4UcNnlpJ",
           "command": "displayed",
           "target": "//*[@id\u003d\"courseCardID-3\"]/div/div[2]",
           "value": "false",
-          "parentStepId": "7f89bf42a73b19acf71eb369335d102b"
+          "parentStepId": "7320446c425006f7f9432f9e2b2de0f3"
         }
       ]
     }

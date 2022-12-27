@@ -1,0 +1,276 @@
+{
+  "id": "UJ47nzPEbU",
+  "description": "Create two tests with MCQ type question",
+  "method": "Before",
+  "hookOrder": "3",
+  "stepDefId": "heJolUnoX6",
+  "stepId": "XdxIyIcCTo",
+  "position": 196605,
+  "stepTO": {
+    "id": "XdxIyIcCTo",
+    "description": "Given HookId:UJ47nzPEbUCreate a test with MCQ type question",
+    "scenarioId": "UJ47nzPEbU",
+    "pos": 65535,
+    "dbConnectionTOs": [],
+    "dbsqlTOs": [],
+    "dbAssertTOs": [],
+    "uiTOs": [],
+    "uiAssertTOs": [],
+    "stepmobileUITOs": [],
+    "stepAssertSettingTOs": [],
+    "stepRESTURLSettingTOs": [
+      {
+        "id": "3zRMYGgSY1",
+        "httpMethod": "POST",
+        "url": "https://{{baseURL}}/questionbank/create",
+        "requestBody": "{\n    \"qb_name\": \"QBCreationTest\",\n    \"qb_code\": \"QB{{qbCode}}\",\n    \"qb_description\": \"Question Types\",\n    \"tags\": [],\n    \"b_d_id\": [\n       {{b_d_id}}\n    ],\n    \"departmentChanged\": true,\n    \"visibility\": \"Within Department\",\n    \"price\": 0,\n    \"mainDepartmentUser\": true\n}",
+        "requestBodyType": "raw",
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "position": 131070,
+        "createdTimeStamp": "2022-12-26T17:21:15.707+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "EQpTGuiI4F",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "3zRMYGgSY1",
+            "createdTimeStamp": "2022-12-26T17:21:15.706+0530"
+          },
+          {
+            "id": "TSfLGWBBZW",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "3zRMYGgSY1",
+            "createdTimeStamp": "2022-12-26T17:21:15.707+0530"
+          },
+          {
+            "id": "W9tNaKJq8d",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "3zRMYGgSY1",
+            "createdTimeStamp": "2022-12-26T17:21:15.707+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      },
+      {
+        "id": "hrSz7de3yV",
+        "httpMethod": "POST",
+        "url": "https://{{baseURL}}/mcq_question/create",
+        "requestBody": "{\n    \"question_type\": \"mcq_single_correct\",\n    \"question_data\": \"\u003cp\u003eWhat is the degree of the clock?\u003c/p\u003e\",\n    \"options\": [\n        {\n            \"text\": \"\u003cp\u003e60\u003c/p\u003e\",\n            \"media\": \"\"\n        },\n        {\n            \"text\": \"\u003cp\u003e180\u003c/p\u003e\",\n            \"media\": \"\"\n        },\n        {\n            \"text\": \"\u003cp\u003e360\u003c/p\u003e\",\n            \"media\": \"\"\n        },\n        {\n            \"text\": \"\u003cp\u003e240\u003c/p\u003e\",\n            \"media\": \"\"\n        }\n    ],\n    \"answer\": {\n        \"args\": [\n            \"\u003cp\u003e240\u003c/p\u003e\"\n        ],\n        \"partial\": []\n    },\n    \"subject_id\": null,\n    \"topic_id\": null,\n    \"sub_topic_id\": null,\n    \"blooms_taxonomy\": \"Synthesis\",\n    \"hint\": [\n        \"\u003cp\u003eCircle in share\u003c/p\u003e\"\n    ],\n    \"answer_explanation\": {\n        \"args\": []\n    },\n    \"manual_difficulty\": \"Easy\",\n    \"question_editor_type\": 1,\n    \"linked_concepts\": \"\",\n    \"tags\": [\n        \"\"\n    ],\n    \"question_media\": [],\n    \"qb_id\": \"{{qb_id}}\",\n    \"createdBy\": \"06009530-9267-4b68-9275-f37e2c440866\"\n}",
+        "requestBodyType": "raw",
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "position": 262140,
+        "createdTimeStamp": "2022-12-26T17:22:25.316+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "0b2v8V2up0",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "hrSz7de3yV",
+            "createdTimeStamp": "2022-12-26T17:22:25.316+0530"
+          },
+          {
+            "id": "6HQ8M1rWBG",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "hrSz7de3yV",
+            "createdTimeStamp": "2022-12-26T17:22:25.316+0530"
+          },
+          {
+            "id": "LADBxzlmMK",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "hrSz7de3yV",
+            "createdTimeStamp": "2022-12-26T17:22:25.316+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      },
+      {
+        "id": "o7LFbE0Og8",
+        "httpMethod": "POST",
+        "url": "https://{{baseURL}}/test",
+        "requestBody": "{\n    \"testName\": \"MCQ Dummy Test\",\n    \"testCode\": \"{{firstTestCode}}\",\n    \"testDesc\": \"MCQ test\",\n    \"testType\": \"Manual Assessment Test\",\n    \"b_d_id\": [\n        {{b_d_id}}\n    ],\n    \"visibility\": \"Within Department\",\n    \"publishStatus\": \"published\",\n    \"createdBy\": \"Ram$Kumar\",\n    \"sections\": [\n        {\n            \"name\": \"Section1\",\n            \"duration\": \"15\",\n            \"additionalinfo\": null\n        }\n    ],\n    \"questions\": [\n        {\n            \"sectionName\": \"Section1\",\n            \"questionList\": [\n                \"{{q_id}}\"\n            ]\n        }\n    ],\n    \"group\": [\n        {\n            \"sectionName\": \"Section1\",\n            \"groupList\": []\n        }\n    ],\n    \"mainDepartmentUser\": true,\n    \"import\": \"original_test\"\n}",
+        "requestBodyType": "raw",
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "position": 393210,
+        "createdTimeStamp": "2022-12-26T22:13:05.311+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "RtdgmWK4CX",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "o7LFbE0Og8",
+            "createdTimeStamp": "2022-12-26T22:13:05.310+0530"
+          },
+          {
+            "id": "nw69lyAn6q",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "o7LFbE0Og8",
+            "createdTimeStamp": "2022-12-26T22:13:05.311+0530"
+          },
+          {
+            "id": "t8hTaHpbFr",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "o7LFbE0Og8",
+            "createdTimeStamp": "2022-12-26T22:13:05.311+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      },
+      {
+        "id": "9wdJeypVHT",
+        "httpMethod": "POST",
+        "url": "https://{{baseURL}}/test",
+        "requestBody": "{\n    \"testName\": \"MCQ Test\",\n    \"testCode\": \"{{secondTestCode}}\",\n    \"testDesc\": \"MCQ test\",\n    \"testType\": \"Manual Assessment Test\",\n    \"b_d_id\": [\n        {{b_d_id}}\n    ],\n    \"visibility\": \"Within Department\",\n    \"publishStatus\": \"published\",\n    \"createdBy\": \"Ram$Kumar\",\n    \"sections\": [\n        {\n            \"name\": \"Section1\",\n            \"duration\": \"15\",\n            \"additionalinfo\": null\n        }\n    ],\n    \"questions\": [\n        {\n            \"sectionName\": \"Section1\",\n            \"questionList\": [\n                \"{{q_id}}\"\n            ]\n        }\n    ],\n    \"group\": [\n        {\n            \"sectionName\": \"Section1\",\n            \"groupList\": []\n        }\n    ],\n    \"mainDepartmentUser\": true,\n    \"import\": \"original_test\"\n}",
+        "requestBodyType": "raw",
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "position": 524280,
+        "createdTimeStamp": "2022-12-26T22:13:30.427+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "8g7sV7qfCQ",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "9wdJeypVHT",
+            "createdTimeStamp": "2022-12-26T22:13:30.427+0530"
+          },
+          {
+            "id": "UpCriuVsZB",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "9wdJeypVHT",
+            "createdTimeStamp": "2022-12-26T22:13:30.427+0530"
+          },
+          {
+            "id": "wOdeXBo1Kp",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "XdxIyIcCTo",
+            "stepRestUrlSettingId": "9wdJeypVHT",
+            "createdTimeStamp": "2022-12-26T22:13:30.427+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      }
+    ],
+    "stepWaitTimeTOs": [],
+    "stepMQSendTOs": [],
+    "stepMQAssertTOs": [],
+    "customProjectTOS": [],
+    "customCodeTOS": [],
+    "restJsonPathAssertTOS": [],
+    "mobileCustomCodeTOS": [],
+    "saveValuesTOS": [
+      {
+        "id": "VV6Hs38WfG",
+        "position": 196605,
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "params": [
+          {
+            "id": "exa9GJ9iuC",
+            "key": "qb_id",
+            "value": "$.data.data.data.qb_id"
+          }
+        ]
+      },
+      {
+        "id": "68TgPenJJv",
+        "position": 65535,
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "params": [
+          {
+            "id": "1FVArG6izz",
+            "key": "courseCode",
+            "value": "StringID(6)"
+          },
+          {
+            "id": "Dj79JvpnmJ",
+            "key": "qbCode",
+            "value": "StringID(6)"
+          },
+          {
+            "id": "EG0lmJcFyh",
+            "key": "firstTestCode",
+            "value": "StringID(6)"
+          },
+          {
+            "id": "06S3kI0Urv",
+            "key": "secondTestCode",
+            "value": "StringID(6)"
+          }
+        ]
+      },
+      {
+        "id": "JT3fbUjFY3",
+        "position": 458745,
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "params": [
+          {
+            "id": "1BSQtULR7K",
+            "key": "firstTestID",
+            "value": "$.data"
+          }
+        ]
+      },
+      {
+        "id": "iONgu0qTpf",
+        "position": 327675,
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "params": [
+          {
+            "id": "jvuvW6TjUN",
+            "key": "q_id",
+            "value": "$.q_id"
+          }
+        ]
+      },
+      {
+        "id": "AaLTi9VXtV",
+        "position": 589815,
+        "stepId": "XdxIyIcCTo",
+        "parentStepId": "9e41089d7b3c0516ede14a39b7a23076",
+        "params": [
+          {
+            "id": "qBUAKhAAYr",
+            "key": "secondTestID",
+            "value": "$.data"
+          }
+        ]
+      }
+    ]
+  },
+  "tags": [
+    {
+      "id": "KmZufLa40S",
+      "description": "SingleTest",
+      "createdTimeStamp": "2022-12-26T17:25:44.663+0530"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "",
+  "description": "And student completes \"NoCodeBDDP1\" test from the module \"NoCodeBDDP2\" for the course \"NoCodeBDDP3\" from the module expanded",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "iTyWrmW1Z8",
+      "position": 65535,
+      "parentStepId": "65616041a95485084273a3acbc75631e",
+      "params": [
+        {
+          "id": "WkK3n92Hjm",
+          "command": "open",
+          "target": "{{studentPortalUrl}}/mycourses?type\u003dmycourses",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "Gp0TTSJmpg",
+          "command": "resizeWindow",
+          "target": "320",
+          "value": "900",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "eKgGCZrLYT",
+          "command": "scrollToElement",
+          "target": "//div[text()\u003d\u0027NoCodeBDDP3\u0027]",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "UBujPFxnuo",
+          "command": "click",
+          "target": "//div[text()\u003d\u0027NoCodeBDDP3\u0027]",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "qqQxxsLzz9",
+          "command": "defaultWaitForElementPresent",
+          "target": "20000",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "OjlRx1nxTy",
+          "command": "click",
+          "target": "//span[contains(text(),\"NoCodeBDDP1\")]",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "E6oRvkC8PK",
+          "command": "sleep",
+          "target": "500",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "nimeV9w7rA",
+          "command": "click",
+          "target": "//*[@id\u003d\"testButtonsID\"]",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "wJ8KLwjchS",
+          "command": "click",
+          "target": "//span[text()\u003d\"Agree \u0026 Proceed\"]",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "BtWqjNMxXd",
+          "command": "sleep",
+          "target": "13000",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "XgiW1bTmX4",
+          "command": "click",
+          "target": "//*[@id\u003d\"tt-header-submit\"]",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "F488uonfii",
+          "command": "sleep",
+          "target": "1000",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "ZEsDEdKFFc",
+          "command": "type",
+          "target": "//input[@id\u003d\"name\"]",
+          "value": "END",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "T7oiro1c9E",
+          "command": "click",
+          "target": "//*[@id\u003d\"undefinedYes1\"]",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        },
+        {
+          "id": "lBpWwdAtZG",
+          "command": "sleep",
+          "target": "1500",
+          "value": "",
+          "parentStepId": "65616041a95485084273a3acbc75631e"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

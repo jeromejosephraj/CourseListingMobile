@@ -1,0 +1,117 @@
+{
+  "id": "fyk7n5mmcD",
+  "description": "Delete Tests and Question Bank",
+  "method": "After",
+  "hookOrder": "1",
+  "stepDefId": "iYXTgYW59L",
+  "stepId": "XUyytRDBTG",
+  "position": 262140,
+  "stepTO": {
+    "id": "XUyytRDBTG",
+    "description": "Given HookId:fyk7n5mmcDDelete Tests and Question Bank",
+    "scenarioId": "fyk7n5mmcD",
+    "pos": 65535,
+    "dbConnectionTOs": [],
+    "dbsqlTOs": [],
+    "dbAssertTOs": [],
+    "uiTOs": [],
+    "uiAssertTOs": [],
+    "stepmobileUITOs": [],
+    "stepAssertSettingTOs": [],
+    "stepRESTURLSettingTOs": [
+      {
+        "id": "8Jf34h7uj8",
+        "httpMethod": "DELETE",
+        "url": "https://{{baseURL}}/v2/tests",
+        "requestBody": "{\n    \"page\": 1,\n    \"limit\": 25,\n    \"search\": \"\",\n    \"branch_id\": \"All\",\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"mainDepartmentUser\": true,\n    \"testids\": [\n        \"{{firstTestID}}\",\n        \"{{secondTestID}}\"\n    ]\n}",
+        "requestBodyType": "raw",
+        "stepId": "XUyytRDBTG",
+        "parentStepId": "c13dbe981d863ff2b0d6b3dd355c85aa",
+        "position": 65535,
+        "createdTimeStamp": "2022-12-27T07:46:45.139+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "VNayS81SbC",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "XUyytRDBTG",
+            "stepRestUrlSettingId": "8Jf34h7uj8",
+            "createdTimeStamp": "2022-12-27T07:46:45.139+0530"
+          },
+          {
+            "id": "yQ5dFQFpzx",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "XUyytRDBTG",
+            "stepRestUrlSettingId": "8Jf34h7uj8",
+            "createdTimeStamp": "2022-12-27T07:46:45.139+0530"
+          },
+          {
+            "id": "Kg9iEHzobz",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "XUyytRDBTG",
+            "stepRestUrlSettingId": "8Jf34h7uj8",
+            "createdTimeStamp": "2022-12-27T07:46:45.139+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      },
+      {
+        "id": "rty6NOIh6n",
+        "httpMethod": "DELETE",
+        "url": "https://{{baseURL}}/v2/questionbanks",
+        "requestBody": "{\n    \"branch_id\": \"all\",\n    \"page\": 1,\n    \"limit\": 25,\n    \"visibility\": \"All\",\n    \"search\": \"QBC\",\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"mainDepartmentUser\": true,\n    \"ids\": [\n        \"{{qb_id}}\"\n    ]\n}",
+        "requestBodyType": "raw",
+        "stepId": "XUyytRDBTG",
+        "parentStepId": "c13dbe981d863ff2b0d6b3dd355c85aa",
+        "position": 131070,
+        "createdTimeStamp": "2022-12-27T07:51:58.133+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "kMtaVtKigW",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "XUyytRDBTG",
+            "stepRestUrlSettingId": "rty6NOIh6n",
+            "createdTimeStamp": "2022-12-27T07:51:58.133+0530"
+          },
+          {
+            "id": "11nTBXKTjL",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "XUyytRDBTG",
+            "stepRestUrlSettingId": "rty6NOIh6n",
+            "createdTimeStamp": "2022-12-27T07:51:58.133+0530"
+          },
+          {
+            "id": "qO1SbBEpZb",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "XUyytRDBTG",
+            "stepRestUrlSettingId": "rty6NOIh6n",
+            "createdTimeStamp": "2022-12-27T07:51:58.133+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      }
+    ],
+    "stepWaitTimeTOs": [],
+    "stepMQSendTOs": [],
+    "stepMQAssertTOs": [],
+    "customProjectTOS": [],
+    "customCodeTOS": [],
+    "restJsonPathAssertTOS": [],
+    "mobileCustomCodeTOS": [],
+    "saveValuesTOS": []
+  },
+  "tags": [
+    {
+      "id": "KmZufLa40S",
+      "description": "SingleTest",
+      "createdTimeStamp": "2022-12-26T17:25:44.663+0530"
+    }
+  ]
+}

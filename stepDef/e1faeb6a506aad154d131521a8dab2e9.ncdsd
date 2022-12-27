@@ -14,7 +14,7 @@
     {
       "id": "Y0khzc8luJ",
       "httpMethod": "DELETE",
-      "url": "https://api.exam.ly/api/courses",
+      "url": "https://{{baseURL}}/courses",
       "requestBody": "{\n    \"c_ids\": [\n        \"{{expFirstCourseID}}\"\n    ]\n}",
       "requestBodyType": "raw",
       "parentStepId": "e1faeb6a506aad154d131521a8dab2e9",
@@ -49,7 +49,7 @@
     {
       "id": "N4yHFkbr2O",
       "httpMethod": "DELETE",
-      "url": "https://api.exam.ly/api/courses",
+      "url": "https://{{baseURL}}/courses",
       "requestBody": "{\n    \"c_ids\": [\n        \"{{expSecondCourseID}}\"\n    ]\n}",
       "requestBodyType": "raw",
       "parentStepId": "e1faeb6a506aad154d131521a8dab2e9",

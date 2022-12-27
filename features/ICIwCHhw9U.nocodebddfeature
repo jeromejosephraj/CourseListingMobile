@@ -59,18 +59,7 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [
-        {
-          "id": "UP1e6GJPkm",
-          "description": "New UI",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-        },
-        {
-          "id": "URPErPInNh",
-          "description": "Mobile",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-        }
-      ],
+      "tagTOs": [],
       "isManual": false
     },
     {
@@ -151,13 +140,7 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [
-        {
-          "id": "URPErPInNh",
-          "description": "Mobile",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-        }
-      ],
+      "tagTOs": [],
       "isManual": false
     },
     {
@@ -238,13 +221,7 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [
-        {
-          "id": "URPErPInNh",
-          "description": "Mobile",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-        }
-      ],
+      "tagTOs": [],
       "isManual": false
     },
     {
@@ -348,13 +325,7 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [
-        {
-          "id": "URPErPInNh",
-          "description": "Mobile",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-        }
-      ],
+      "tagTOs": [],
       "isManual": false
     },
     {
@@ -412,13 +383,7 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [
-        {
-          "id": "URPErPInNh",
-          "description": "Mobile",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-        }
-      ],
+      "tagTOs": [],
       "isManual": false
     },
     {
@@ -522,13 +487,7 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [
-        {
-          "id": "URPErPInNh",
-          "description": "Mobile",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-        }
-      ],
+      "tagTOs": [],
       "isManual": false
     },
     {
@@ -657,8 +616,8 @@
       "exampleTOs": [],
       "tagTOs": [
         {
-          "id": "URPErPInNh",
-          "description": "Mobile",
+          "id": "KmZufLa40S",
+          "description": "SingleTest",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
@@ -813,8 +772,8 @@
       "exampleTOs": [],
       "tagTOs": [
         {
-          "id": "URPErPInNh",
-          "description": "Mobile",
+          "id": "KmZufLa40S",
+          "description": "SingleTest",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
@@ -944,7 +903,13 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [],
+      "tagTOs": [
+        {
+          "id": "KmZufLa40S",
+          "description": "SingleTest",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
       "isManual": false
     },
     {
@@ -1071,7 +1036,13 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [],
+      "tagTOs": [
+        {
+          "id": "KmZufLa40S",
+          "description": "SingleTest",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
       "isManual": false
     },
     {
@@ -1290,27 +1261,17 @@
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [],
+      "tagTOs": [
+        {
+          "id": "KmZufLa40S",
+          "description": "SingleTest",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
       "isManual": false
     }
   ],
-  "tagTOs": [
-    {
-      "id": "67zLn91VDQ",
-      "description": "Student Course List",
-      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-    },
-    {
-      "id": "UP1e6GJPkm",
-      "description": "New UI",
-      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-    },
-    {
-      "id": "URPErPInNh",
-      "description": "Mobile",
-      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-    }
-  ],
+  "tagTOs": [],
   "jiraLinkTOs": [],
   "isManual": false
 }
