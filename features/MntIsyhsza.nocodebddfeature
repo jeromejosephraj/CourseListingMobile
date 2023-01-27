@@ -1,7 +1,7 @@
 {
   "id": "MntIsyhsza",
   "description": "Mobile Course List - Filter",
-  "pos": 39386533,
+  "pos": 39517603,
   "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
   "scenarioTOS": [
     {
@@ -791,7 +791,7 @@
         },
         {
           "id": "f3veti4z5V",
-          "description": "When student applies a filter \"Active\"",
+          "description": "When student applies a filter \"Enrolled\"",
           "scenarioId": "UGzudqxU7y",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 458745,
