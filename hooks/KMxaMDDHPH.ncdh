@@ -113,7 +113,7 @@
             "id": "9Zpyoo8PHk",
             "stepId": "EuseOfqwZn",
             "command": "defaultWaitForElementPresent",
-            "target": "7000",
+            "target": "15000",
             "value": "",
             "parentStepId": "62d54840f75eac2f54a81171fa49aafc"
           }
