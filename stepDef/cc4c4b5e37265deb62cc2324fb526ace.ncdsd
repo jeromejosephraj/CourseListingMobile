@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "description": "Then courses should be listed in the sorted order \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [
+    {
+      "id": "LIGxwlkbJb",
+      "position": 65535,
+      "parentStepId": "cc4c4b5e37265deb62cc2324fb526ace",
+      "params": [
+        {
+          "id": "juoOv139BT",
+          "command": "sleep",
+          "target": "3000",
+          "value": "",
+          "parentStepId": "cc4c4b5e37265deb62cc2324fb526ace"
+        },
+        {
+          "id": "1nNI4Rnemt",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-1\"]/div/div[2]",
+          "value": "NoCodeBDDP1",
+          "parentStepId": "cc4c4b5e37265deb62cc2324fb526ace"
+        },
+        {
+          "id": "ygylTwng00",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-2\"]/div/div[2]",
+          "value": "NoCodeBDDP2",
+          "parentStepId": "cc4c4b5e37265deb62cc2324fb526ace"
+        },
+        {
+          "id": "l7zg19msU0",
+          "command": "gettext",
+          "target": "//*[@id\u003d\"courseCardID-3\"]/div/div[2]",
+          "value": "NoCodeBDDP3",
+          "parentStepId": "cc4c4b5e37265deb62cc2324fb526ace"
+        },
+        {
+          "id": "XxoIsH7Zij",
+          "command": "defaultWaitForElementPresent",
+          "target": "500",
+          "value": "",
+          "parentStepId": "cc4c4b5e37265deb62cc2324fb526ace"
+        },
+        {
+          "id": "EfFlUX3aue",
+          "command": "displayed",
+          "target": "//*[@id\u003d\"courseCardID-4\"]/div/div[2]",
+          "value": "false",
+          "parentStepId": "cc4c4b5e37265deb62cc2324fb526ace"
+        }
+      ]
+    }
+  ],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

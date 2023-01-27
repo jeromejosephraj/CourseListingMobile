@@ -1,6 +1,6 @@
 {
   "id": "",
-  "description": "And activate the student to the courses \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\"",
+  "description": "And enrolls the student \"NoCodeBDDP1\" to the courses \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\"",
   "scenarioId": "",
   "pos": 0,
   "dbConnectionTOs": [],
@@ -12,126 +12,105 @@
   "stepAssertSettingTOs": [],
   "stepRESTURLSettingTOs": [
     {
-      "id": "fxGz1S9F9K",
+      "id": "kzikgfIyKe",
       "httpMethod": "POST",
-      "url": "https://{{baseURL}}/course/{{firstCourseID}}/students/active",
-      "requestBody": "{\n    \"users\": [\n        \"{{user1ID}}\"\n    ]\n}",
+      "url": "https://{{baseURL}}/course/{{firstCourseID}}/students",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user1ID}}\",\n            \"email\": \"{{user1Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
       "requestBodyType": "raw",
-      "parentStepId": "21bc976f3c2b48ca417ac15b7751ed97",
+      "parentStepId": "9e7b622a47c4a102bc63b92c15f1a6e4",
       "position": 65535,
       "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
       "restParamTOs": [],
       "restHeaderTOs": [
         {
-          "id": "rtDq5LzhOB",
+          "id": "BZGbKqxe6Q",
           "key": "Content-Type",
           "value": "application/json",
-          "stepRestUrlSettingId": "fxGz1S9F9K",
+          "stepRestUrlSettingId": "kzikgfIyKe",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "7mTaBTCsRX",
+          "id": "oP1Ui8dSjL",
           "key": "User-Agent",
           "value": "NoCodeBDD",
-          "stepRestUrlSettingId": "fxGz1S9F9K",
+          "stepRestUrlSettingId": "kzikgfIyKe",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "H3nNsw8N6i",
+          "id": "OH4rqacitQ",
           "key": "Authorization",
           "value": "{{adminToken}}",
-          "stepRestUrlSettingId": "fxGz1S9F9K",
+          "stepRestUrlSettingId": "kzikgfIyKe",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
       "restMultiPartTOs": []
     },
     {
-      "id": "2rOfQ7YVZG",
+      "id": "rTq1cCxdfv",
       "httpMethod": "POST",
-      "url": "https://{{baseURL}}/course/{{secondCourseID}}/students/active",
-      "requestBody": "{\n    \"users\": [\n        \"{{user1ID}}\"\n    ]\n}",
+      "url": "https://{{baseURL}}/course/{{secondCourseID}}/students",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user1ID}}\",\n            \"email\": \"{{user1Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
       "requestBodyType": "raw",
-      "parentStepId": "21bc976f3c2b48ca417ac15b7751ed97",
+      "parentStepId": "9e7b622a47c4a102bc63b92c15f1a6e4",
       "position": 131070,
       "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
       "restParamTOs": [],
       "restHeaderTOs": [
         {
-          "id": "nPy3c1h8K6",
+          "id": "SW2koL97Gg",
           "key": "Content-Type",
           "value": "application/json",
-          "stepRestUrlSettingId": "2rOfQ7YVZG",
+          "stepRestUrlSettingId": "rTq1cCxdfv",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "AG1fxwxuul",
+          "id": "FToeGMzyhG",
           "key": "User-Agent",
           "value": "NoCodeBDD",
-          "stepRestUrlSettingId": "2rOfQ7YVZG",
+          "stepRestUrlSettingId": "rTq1cCxdfv",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "as34EkyePP",
+          "id": "m3gVQMdCbZ",
           "key": "Authorization",
           "value": "{{adminToken}}",
-          "stepRestUrlSettingId": "2rOfQ7YVZG",
+          "stepRestUrlSettingId": "rTq1cCxdfv",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
       "restMultiPartTOs": []
     },
     {
-      "id": "UwB0xtkp1C",
+      "id": "UwAdTVb2HJ",
       "httpMethod": "POST",
-      "url": "https://{{baseURL}}/course/{{thirdCourseID}}/students/active",
-      "requestBody": "{\n    \"users\": [\n        \"{{user1ID}}\"\n    ]\n}",
+      "url": "https://{{baseURL}}/course/{{thirdCourseID}}/students",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user1ID}}\",\n            \"email\": \"{{user1Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
       "requestBodyType": "raw",
-      "parentStepId": "21bc976f3c2b48ca417ac15b7751ed97",
+      "parentStepId": "9e7b622a47c4a102bc63b92c15f1a6e4",
       "position": 196605,
       "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
       "restParamTOs": [],
       "restHeaderTOs": [
         {
-          "id": "3Clc78Vksq",
+          "id": "QoVEcS6DBP",
           "key": "Content-Type",
           "value": "application/json",
-          "stepRestUrlSettingId": "UwB0xtkp1C",
+          "stepRestUrlSettingId": "UwAdTVb2HJ",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "przB7psZbU",
+          "id": "uSqoj4U6Qs",
           "key": "User-Agent",
           "value": "NoCodeBDD",
-          "stepRestUrlSettingId": "UwB0xtkp1C",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
-        }
-      ],
-      "restMultiPartTOs": []
-    },
-    {
-      "id": "jtTMUjDqsQ",
-      "httpMethod": "POST",
-      "url": "https://{{baseURL}}/course/{{fourthCourseID}}/students/active",
-      "requestBody": "{\n    \"users\": [\n        \"{{user1ID}}\"\n    ]\n}",
-      "requestBodyType": "raw",
-      "parentStepId": "21bc976f3c2b48ca417ac15b7751ed97",
-      "position": 262140,
-      "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
-      "restParamTOs": [],
-      "restHeaderTOs": [
-        {
-          "id": "3DJAEuVIha",
-          "key": "Content-Type",
-          "value": "application/json",
-          "stepRestUrlSettingId": "jtTMUjDqsQ",
+          "stepRestUrlSettingId": "UwAdTVb2HJ",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "2H9QezK2iV",
-          "key": "User-Agent",
-          "value": "NoCodeBDD",
-          "stepRestUrlSettingId": "jtTMUjDqsQ",
+          "id": "rlVc6HE5Hr",
+          "key": "Authorization",
+          "value": "{{adminToken}}",
+          "stepRestUrlSettingId": "UwAdTVb2HJ",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
