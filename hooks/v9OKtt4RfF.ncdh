@@ -1,0 +1,205 @@
+{
+  "id": "v9OKtt4RfF",
+  "description": "And delete all the created courses",
+  "method": "After",
+  "hookOrder": "1",
+  "stepDefId": "onTO9ge7BY",
+  "stepId": "ok4rT23unB",
+  "position": 655350,
+  "stepTO": {
+    "id": "ok4rT23unB",
+    "description": "Given HookId:v9OKtt4RfFAnd delete all the created courses",
+    "scenarioId": "v9OKtt4RfF",
+    "pos": 65535,
+    "dbConnectionTOs": [],
+    "dbsqlTOs": [],
+    "dbAssertTOs": [],
+    "uiTOs": [],
+    "uiAssertTOs": [],
+    "stepmobileUITOs": [],
+    "stepAssertSettingTOs": [],
+    "stepRESTURLSettingTOs": [
+      {
+        "id": "sgdPXDnp90",
+        "httpMethod": "DELETE",
+        "url": "https://{{baseURL}}/courses",
+        "requestBody": "{\n    \"c_ids\": [\n        \"{{firstCourseID}}\"\n    ]\n}",
+        "requestBodyType": "raw",
+        "stepId": "ok4rT23unB",
+        "parentStepId": "1e61fbd2e7a63ac534a1b87fef9c3489",
+        "position": 65535,
+        "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "QbcOkBxXos",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "sgdPXDnp90",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "Pxv6j5o6jk",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "sgdPXDnp90",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "iQHTRXPeF7",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "sgdPXDnp90",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      },
+      {
+        "id": "Uqp7XbWLcW",
+        "httpMethod": "DELETE",
+        "url": "https://{{baseURL}}/courses",
+        "requestBody": "{\n    \"c_ids\": [\n        \"{{secondCourseID}}\"\n    ]\n}",
+        "requestBodyType": "raw",
+        "stepId": "ok4rT23unB",
+        "parentStepId": "1e61fbd2e7a63ac534a1b87fef9c3489",
+        "position": 131070,
+        "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "0j6VZOISeQ",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "Uqp7XbWLcW",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "rnCePeog59",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "Uqp7XbWLcW",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "Ldhw6GXKgK",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "Uqp7XbWLcW",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      },
+      {
+        "id": "Y908SWYlQm",
+        "httpMethod": "DELETE",
+        "url": "https://{{baseURL}}/courses",
+        "requestBody": "{\n    \"c_ids\": [\n        \"{{thirdCourseID}}\"\n    ]\n}",
+        "requestBodyType": "raw",
+        "stepId": "ok4rT23unB",
+        "parentStepId": "1e61fbd2e7a63ac534a1b87fef9c3489",
+        "position": 196605,
+        "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "xLvWQAN1xT",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "Y908SWYlQm",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "dPSPUnek7u",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "Y908SWYlQm",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "W0HfCg6j7u",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "Y908SWYlQm",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      },
+      {
+        "id": "znuPEmktgv",
+        "httpMethod": "DELETE",
+        "url": "https://{{baseURL}}/courses",
+        "requestBody": "{\n    \"c_ids\": [\n        \"{{fourthCourseID}}\"\n    ]\n}",
+        "requestBodyType": "raw",
+        "stepId": "ok4rT23unB",
+        "parentStepId": "1e61fbd2e7a63ac534a1b87fef9c3489",
+        "position": 262140,
+        "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "aa9LrdPYpG",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "znuPEmktgv",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "zEiAYXcNqx",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "znuPEmktgv",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "wDVNItdgf8",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "ok4rT23unB",
+            "stepRestUrlSettingId": "znuPEmktgv",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      }
+    ],
+    "stepWaitTimeTOs": [],
+    "stepMQSendTOs": [],
+    "stepMQAssertTOs": [],
+    "customProjectTOS": [],
+    "customCodeTOS": [],
+    "restJsonPathAssertTOS": [],
+    "mobileCustomCodeTOS": [],
+    "saveValuesTOS": []
+  },
+  "tags": [
+    {
+      "id": "I8zKV1swSX",
+      "description": "User 2",
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+    },
+    {
+      "id": "0MViB1oauQ",
+      "description": "User 3",
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+    },
+    {
+      "id": "ybcDgP4uxh",
+      "description": "Four courses",
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+    }
+  ]
+}

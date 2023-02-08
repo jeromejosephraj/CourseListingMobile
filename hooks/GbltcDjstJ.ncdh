@@ -1,0 +1,117 @@
+{
+  "id": "GbltcDjstJ",
+  "description": "And delete created expired courses",
+  "method": "Before",
+  "hookOrder": "1",
+  "stepDefId": "H3kcEk9NTP",
+  "stepId": "XHSZeYSBVs",
+  "position": 786420,
+  "stepTO": {
+    "id": "XHSZeYSBVs",
+    "description": "Given HookId:GbltcDjstJAnd delete created expired courses",
+    "scenarioId": "GbltcDjstJ",
+    "pos": 65535,
+    "dbConnectionTOs": [],
+    "dbsqlTOs": [],
+    "dbAssertTOs": [],
+    "uiTOs": [],
+    "uiAssertTOs": [],
+    "stepmobileUITOs": [],
+    "stepAssertSettingTOs": [],
+    "stepRESTURLSettingTOs": [
+      {
+        "id": "H2fISlryJn",
+        "httpMethod": "DELETE",
+        "url": "https://{{baseURL}}/courses",
+        "requestBody": "{\n    \"c_ids\": [\n        \"{{expFirstCourseID}}\"\n    ]\n}",
+        "requestBodyType": "raw",
+        "stepId": "XHSZeYSBVs",
+        "parentStepId": "0ce872800d76d850c5b2591ea54c0e31",
+        "position": 65535,
+        "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "XPYp7nLb8A",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "XHSZeYSBVs",
+            "stepRestUrlSettingId": "H2fISlryJn",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "dGoyjUpzcB",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "XHSZeYSBVs",
+            "stepRestUrlSettingId": "H2fISlryJn",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "Tc98BoZIdG",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "XHSZeYSBVs",
+            "stepRestUrlSettingId": "H2fISlryJn",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      },
+      {
+        "id": "V4q7e6PSBx",
+        "httpMethod": "DELETE",
+        "url": "https://{{baseURL}}/courses",
+        "requestBody": "{\n    \"c_ids\": [\n        \"{{secondCourseID}}\"\n    ]\n}",
+        "requestBodyType": "raw",
+        "stepId": "XHSZeYSBVs",
+        "parentStepId": "0ce872800d76d850c5b2591ea54c0e31",
+        "position": 131070,
+        "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+        "restParamTOs": [],
+        "restHeaderTOs": [
+          {
+            "id": "u53iWJlbpi",
+            "key": "Content-Type",
+            "value": "application/json",
+            "stepId": "XHSZeYSBVs",
+            "stepRestUrlSettingId": "V4q7e6PSBx",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "yJ2vfPqVc6",
+            "key": "User-Agent",
+            "value": "NoCodeBDD",
+            "stepId": "XHSZeYSBVs",
+            "stepRestUrlSettingId": "V4q7e6PSBx",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          },
+          {
+            "id": "n1maQlmmuB",
+            "key": "Authorization",
+            "value": "{{adminToken}}",
+            "stepId": "XHSZeYSBVs",
+            "stepRestUrlSettingId": "V4q7e6PSBx",
+            "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+          }
+        ],
+        "restMultiPartTOs": []
+      }
+    ],
+    "stepWaitTimeTOs": [],
+    "stepMQSendTOs": [],
+    "stepMQAssertTOs": [],
+    "customProjectTOS": [],
+    "customCodeTOS": [],
+    "restJsonPathAssertTOS": [],
+    "mobileCustomCodeTOS": [],
+    "saveValuesTOS": []
+  },
+  "tags": [
+    {
+      "id": "SPeiioFuom",
+      "description": "Expired courses",
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+    }
+  ]
+}

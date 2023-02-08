@@ -1,7 +1,7 @@
 {
   "id": "MntIsyhsza",
   "description": "Mobile Course List - Filter",
-  "pos": 39648673,
+  "pos": 40041883,
   "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
   "scenarioTOS": [
     {
@@ -194,29 +194,6 @@
           "restJsonPathAssertTOS": [],
           "mobileCustomCodeTOS": [],
           "saveValuesTOS": []
-        },
-        {
-          "id": "ybpQFBvNcq",
-          "description": "And delete the courses \"Aptitude\", \"Programming C\", \"Basic Java\", \"Reasoning\"",
-          "scenarioId": "8pX8olD2Gk",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
-          "pos": 262140,
-          "dbConnectionTOs": [],
-          "dbsqlTOs": [],
-          "dbAssertTOs": [],
-          "uiTOs": [],
-          "uiAssertTOs": [],
-          "stepmobileUITOs": [],
-          "stepAssertSettingTOs": [],
-          "stepRESTURLSettingTOs": [],
-          "stepWaitTimeTOs": [],
-          "stepMQSendTOs": [],
-          "stepMQAssertTOs": [],
-          "customProjectTOS": [],
-          "customCodeTOS": [],
-          "restJsonPathAssertTOS": [],
-          "mobileCustomCodeTOS": [],
-          "saveValuesTOS": []
         }
       ],
       "exampleTOs": [],
@@ -224,6 +201,11 @@
         {
           "id": "KmZufLa40S",
           "description": "SingleTest",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "ybcDgP4uxh",
+          "description": "Four courses",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
@@ -350,56 +332,16 @@
           "restJsonPathAssertTOS": [],
           "mobileCustomCodeTOS": [],
           "saveValuesTOS": []
-        },
-        {
-          "id": "BqdiSkhIZx",
-          "description": "And delete the courses \"Aptitude\", \"Programming C\", \"Basic Java\", \"Reasoning\"",
-          "scenarioId": "YKGwqZH1nB",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
-          "pos": 262140,
-          "dbConnectionTOs": [],
-          "dbsqlTOs": [],
-          "dbAssertTOs": [],
-          "uiTOs": [],
-          "uiAssertTOs": [],
-          "stepmobileUITOs": [],
-          "stepAssertSettingTOs": [],
-          "stepRESTURLSettingTOs": [],
-          "stepWaitTimeTOs": [],
-          "stepMQSendTOs": [],
-          "stepMQAssertTOs": [],
-          "customProjectTOS": [],
-          "customCodeTOS": [],
-          "restJsonPathAssertTOS": [],
-          "mobileCustomCodeTOS": [],
-          "saveValuesTOS": []
-        },
-        {
-          "id": "9PXQF8DKjU",
-          "description": "And delete the expired courses \"Advanced Java\", \"Logical Reasoning\"",
-          "scenarioId": "YKGwqZH1nB",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
-          "pos": 327675,
-          "dbConnectionTOs": [],
-          "dbsqlTOs": [],
-          "dbAssertTOs": [],
-          "uiTOs": [],
-          "uiAssertTOs": [],
-          "stepmobileUITOs": [],
-          "stepAssertSettingTOs": [],
-          "stepRESTURLSettingTOs": [],
-          "stepWaitTimeTOs": [],
-          "stepMQSendTOs": [],
-          "stepMQAssertTOs": [],
-          "customProjectTOS": [],
-          "customCodeTOS": [],
-          "restJsonPathAssertTOS": [],
-          "mobileCustomCodeTOS": [],
-          "saveValuesTOS": []
         }
       ],
       "exampleTOs": [],
-      "tagTOs": [],
+      "tagTOs": [
+        {
+          "id": "SPeiioFuom",
+          "description": "Expired courses",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
       "isManual": false
     },
     {
@@ -615,29 +557,6 @@
           "restJsonPathAssertTOS": [],
           "mobileCustomCodeTOS": [],
           "saveValuesTOS": []
-        },
-        {
-          "id": "ARhFDs6JS7",
-          "description": "And delete the courses \"Aptitude\", \"Programming C\", \"Basic Java\", \"Reasoning\"",
-          "scenarioId": "8dXE8zM2YB",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
-          "pos": 589815,
-          "dbConnectionTOs": [],
-          "dbsqlTOs": [],
-          "dbAssertTOs": [],
-          "uiTOs": [],
-          "uiAssertTOs": [],
-          "stepmobileUITOs": [],
-          "stepAssertSettingTOs": [],
-          "stepRESTURLSettingTOs": [],
-          "stepWaitTimeTOs": [],
-          "stepMQSendTOs": [],
-          "stepMQAssertTOs": [],
-          "customProjectTOS": [],
-          "customCodeTOS": [],
-          "restJsonPathAssertTOS": [],
-          "mobileCustomCodeTOS": [],
-          "saveValuesTOS": []
         }
       ],
       "exampleTOs": [],
@@ -818,29 +737,6 @@
           "scenarioId": "UGzudqxU7y",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 524280,
-          "dbConnectionTOs": [],
-          "dbsqlTOs": [],
-          "dbAssertTOs": [],
-          "uiTOs": [],
-          "uiAssertTOs": [],
-          "stepmobileUITOs": [],
-          "stepAssertSettingTOs": [],
-          "stepRESTURLSettingTOs": [],
-          "stepWaitTimeTOs": [],
-          "stepMQSendTOs": [],
-          "stepMQAssertTOs": [],
-          "customProjectTOS": [],
-          "customCodeTOS": [],
-          "restJsonPathAssertTOS": [],
-          "mobileCustomCodeTOS": [],
-          "saveValuesTOS": []
-        },
-        {
-          "id": "ttLeSJjnPS",
-          "description": "And delete the courses \"Aptitude\", \"Programming C\", \"Basic Java\", \"Reasoning\"",
-          "scenarioId": "UGzudqxU7y",
-          "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
-          "pos": 589815,
           "dbConnectionTOs": [],
           "dbsqlTOs": [],
           "dbAssertTOs": [],
