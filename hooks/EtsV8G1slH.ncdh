@@ -1,0 +1,135 @@
+{
+  "id": "EtsV8G1slH",
+  "description": "Given student login with user 3 credentials",
+  "method": "Before",
+  "hookOrder": "1",
+  "stepDefId": "dMyvGWJWqE",
+  "stepId": "Ld3PYRgtgW",
+  "position": 524280,
+  "stepTO": {
+    "id": "Ld3PYRgtgW",
+    "description": "Given HookId:EtsV8G1slHGiven student login with user 3 credentials",
+    "scenarioId": "EtsV8G1slH",
+    "pos": 65535,
+    "dbConnectionTOs": [],
+    "dbsqlTOs": [],
+    "dbAssertTOs": [],
+    "uiTOs": [
+      {
+        "id": "VvgvTyrV1Y",
+        "position": 65535,
+        "stepId": "Ld3PYRgtgW",
+        "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90",
+        "params": [
+          {
+            "id": "ULfVMLbSrW",
+            "stepId": "Ld3PYRgtgW",
+            "command": "open",
+            "target": "{{studentPortalUrl}}",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "mi3WLtHj9g",
+            "stepId": "Ld3PYRgtgW",
+            "command": "defaultWaitForElementPresent",
+            "target": "22000",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "EHXFLsFf3c",
+            "stepId": "Ld3PYRgtgW",
+            "command": "sleep",
+            "target": "3000",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "rMSbGlOKq4",
+            "stepId": "Ld3PYRgtgW",
+            "command": "type",
+            "target": "//*[@id\u003d\"email\"]",
+            "value": "{{user3Email}}",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "rtPnwULnss",
+            "stepId": "Ld3PYRgtgW",
+            "command": "submit",
+            "target": "//*[@id\u003d\"email\"]",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "fwcLSuXf1O",
+            "stepId": "Ld3PYRgtgW",
+            "command": "sleep",
+            "target": "4000",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "RlJjP5g32c",
+            "stepId": "Ld3PYRgtgW",
+            "command": "type",
+            "target": "//*[@id\u003d\"password\"]",
+            "value": "{{user3Password}}",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "AEEUbm22Kf",
+            "stepId": "Ld3PYRgtgW",
+            "command": "submit",
+            "target": "//*[@id\u003d\"password\"]",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "OR9BcyoAXY",
+            "stepId": "Ld3PYRgtgW",
+            "command": "sleep",
+            "target": "2000",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "mKwR7W6d0b",
+            "stepId": "Ld3PYRgtgW",
+            "command": "waitForElementPresent",
+            "target": "//div[text()\u003d\"Courses\"]",
+            "value": "30000",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "2mJHiIh8Co",
+            "stepId": "Ld3PYRgtgW",
+            "command": "defaultWaitForElementPresent",
+            "target": "7000",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          }
+        ]
+      }
+    ],
+    "uiAssertTOs": [],
+    "stepmobileUITOs": [],
+    "stepAssertSettingTOs": [],
+    "stepRESTURLSettingTOs": [],
+    "stepWaitTimeTOs": [],
+    "stepMQSendTOs": [],
+    "stepMQAssertTOs": [],
+    "customProjectTOS": [],
+    "customCodeTOS": [],
+    "restJsonPathAssertTOS": [],
+    "mobileCustomCodeTOS": [],
+    "saveValuesTOS": []
+  },
+  "tags": [
+    {
+      "id": "0MViB1oauQ",
+      "description": "User 3",
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+    }
+  ]
+}

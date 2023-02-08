@@ -1,0 +1,135 @@
+{
+  "id": "giUHH79xS0",
+  "description": "Given student login with user 5 credentials",
+  "method": "Before",
+  "hookOrder": "1",
+  "stepDefId": "5mOXwqdL2f",
+  "stepId": "wCiRJcIay9",
+  "position": 589815,
+  "stepTO": {
+    "id": "wCiRJcIay9",
+    "description": "Given HookId:giUHH79xS0Given student login with user 5 credentials",
+    "scenarioId": "giUHH79xS0",
+    "pos": 65535,
+    "dbConnectionTOs": [],
+    "dbsqlTOs": [],
+    "dbAssertTOs": [],
+    "uiTOs": [
+      {
+        "id": "37rpTVPQen",
+        "position": 65535,
+        "stepId": "wCiRJcIay9",
+        "parentStepId": "3a5bb8858254f0a6601cf984981cc15b",
+        "params": [
+          {
+            "id": "pcaiq9DepI",
+            "stepId": "wCiRJcIay9",
+            "command": "open",
+            "target": "{{studentPortalUrl}}",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "lTmmc5eqDB",
+            "stepId": "wCiRJcIay9",
+            "command": "defaultWaitForElementPresent",
+            "target": "22000",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "npZJyBz3pm",
+            "stepId": "wCiRJcIay9",
+            "command": "sleep",
+            "target": "3000",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "Nv0B8QiuuJ",
+            "stepId": "wCiRJcIay9",
+            "command": "type",
+            "target": "//*[@id\u003d\"email\"]",
+            "value": "{{user5Email}}",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "F6e3s61fea",
+            "stepId": "wCiRJcIay9",
+            "command": "submit",
+            "target": "//*[@id\u003d\"email\"]",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "cGoac5P02c",
+            "stepId": "wCiRJcIay9",
+            "command": "sleep",
+            "target": "4000",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "wGcngMtnnM",
+            "stepId": "wCiRJcIay9",
+            "command": "type",
+            "target": "//*[@id\u003d\"password\"]",
+            "value": "{{user5Password}}",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "p0xWaoQiGn",
+            "stepId": "wCiRJcIay9",
+            "command": "submit",
+            "target": "//*[@id\u003d\"password\"]",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "IViQKNuiM9",
+            "stepId": "wCiRJcIay9",
+            "command": "sleep",
+            "target": "2000",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "qPGMMLD3EH",
+            "stepId": "wCiRJcIay9",
+            "command": "waitForElementPresent",
+            "target": "//div[text()\u003d\"Courses\"]",
+            "value": "30000",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "Z7RfEI7wer",
+            "stepId": "wCiRJcIay9",
+            "command": "defaultWaitForElementPresent",
+            "target": "7000",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          }
+        ]
+      }
+    ],
+    "uiAssertTOs": [],
+    "stepmobileUITOs": [],
+    "stepAssertSettingTOs": [],
+    "stepRESTURLSettingTOs": [],
+    "stepWaitTimeTOs": [],
+    "stepMQSendTOs": [],
+    "stepMQAssertTOs": [],
+    "customProjectTOS": [],
+    "customCodeTOS": [],
+    "restJsonPathAssertTOS": [],
+    "mobileCustomCodeTOS": [],
+    "saveValuesTOS": []
+  },
+  "tags": [
+    {
+      "id": "zsR23bV4xL",
+      "description": "User 5",
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+    }
+  ]
+}
