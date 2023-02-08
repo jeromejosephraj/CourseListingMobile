@@ -1,7 +1,7 @@
 {
   "id": "GbltcDjstJ",
   "description": "And delete created expired courses",
-  "method": "Before",
+  "method": "After",
   "hookOrder": "1",
   "stepDefId": "H3kcEk9NTP",
   "stepId": "XHSZeYSBVs",
