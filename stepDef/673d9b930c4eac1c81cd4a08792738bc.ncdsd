@@ -1,0 +1,163 @@
+{
+  "id": "",
+  "description": "And enrolls the student user1 to the courses \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\"",
+  "scenarioId": "",
+  "pos": 0,
+  "dbConnectionTOs": [],
+  "dbsqlTOs": [],
+  "dbAssertTOs": [],
+  "uiTOs": [],
+  "uiAssertTOs": [],
+  "stepmobileUITOs": [],
+  "stepAssertSettingTOs": [],
+  "stepRESTURLSettingTOs": [
+    {
+      "id": "pEGEmK35MW",
+      "httpMethod": "POST",
+      "url": "https://{{baseURL}}/course/{{firstCourseID}}/students",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user1ID}}\",\n            \"email\": \"{{user1Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
+      "requestBodyType": "raw",
+      "parentStepId": "673d9b930c4eac1c81cd4a08792738bc",
+      "position": 65535,
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+      "restParamTOs": [],
+      "restHeaderTOs": [
+        {
+          "id": "J3CYS5prdc",
+          "key": "Content-Type",
+          "value": "application/json",
+          "stepRestUrlSettingId": "pEGEmK35MW",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "DYMnKkjruZ",
+          "key": "User-Agent",
+          "value": "NoCodeBDD",
+          "stepRestUrlSettingId": "pEGEmK35MW",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "VPcfT2Dh3b",
+          "key": "Authorization",
+          "value": "{{adminToken}}",
+          "stepRestUrlSettingId": "pEGEmK35MW",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
+      "restMultiPartTOs": []
+    },
+    {
+      "id": "er3zvFwIjQ",
+      "httpMethod": "POST",
+      "url": "https://{{baseURL}}/course/{{secondCourseID}}/students",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user1ID}}\",\n            \"email\": \"{{user1Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
+      "requestBodyType": "raw",
+      "parentStepId": "673d9b930c4eac1c81cd4a08792738bc",
+      "position": 131070,
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+      "restParamTOs": [],
+      "restHeaderTOs": [
+        {
+          "id": "iqqQzkmGRL",
+          "key": "Content-Type",
+          "value": "application/json",
+          "stepRestUrlSettingId": "er3zvFwIjQ",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "3HBgTLuUz0",
+          "key": "User-Agent",
+          "value": "NoCodeBDD",
+          "stepRestUrlSettingId": "er3zvFwIjQ",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "WuSwNAuzJi",
+          "key": "Authorization",
+          "value": "{{adminToken}}",
+          "stepRestUrlSettingId": "er3zvFwIjQ",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
+      "restMultiPartTOs": []
+    },
+    {
+      "id": "vpdzkJpoJz",
+      "httpMethod": "POST",
+      "url": "https://{{baseURL}}/course/{{thirdCourseID}}/students",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user1ID}}\",\n            \"email\": \"{{user1Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
+      "requestBodyType": "raw",
+      "parentStepId": "673d9b930c4eac1c81cd4a08792738bc",
+      "position": 196605,
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+      "restParamTOs": [],
+      "restHeaderTOs": [
+        {
+          "id": "oZkMleanmg",
+          "key": "Content-Type",
+          "value": "application/json",
+          "stepRestUrlSettingId": "vpdzkJpoJz",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "uuxRl6eYaz",
+          "key": "User-Agent",
+          "value": "NoCodeBDD",
+          "stepRestUrlSettingId": "vpdzkJpoJz",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "7JRRCfd9d4",
+          "key": "Authorization",
+          "value": "{{adminToken}}",
+          "stepRestUrlSettingId": "vpdzkJpoJz",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
+      "restMultiPartTOs": []
+    },
+    {
+      "id": "PUjAopnsqS",
+      "httpMethod": "POST",
+      "url": "https://{{baseURL}}/course/{{fourthCourseID}}/students",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user1ID}}\",\n            \"email\": \"{{user1Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
+      "requestBodyType": "raw",
+      "parentStepId": "673d9b930c4eac1c81cd4a08792738bc",
+      "position": 262140,
+      "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
+      "restParamTOs": [],
+      "restHeaderTOs": [
+        {
+          "id": "DgNQugRo06",
+          "key": "Content-Type",
+          "value": "application/json",
+          "stepRestUrlSettingId": "PUjAopnsqS",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "Eoz6emWeyZ",
+          "key": "User-Agent",
+          "value": "NoCodeBDD",
+          "stepRestUrlSettingId": "PUjAopnsqS",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        },
+        {
+          "id": "OJiXKKaGCu",
+          "key": "Authorization",
+          "value": "{{adminToken}}",
+          "stepRestUrlSettingId": "PUjAopnsqS",
+          "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
+        }
+      ],
+      "restMultiPartTOs": []
+    }
+  ],
+  "stepWaitTimeTOs": [],
+  "stepMQSendTOs": [],
+  "stepMQAssertTOs": [],
+  "customProjectTOS": [],
+  "customCodeTOS": [],
+  "restJsonPathAssertTOS": [],
+  "mobileCustomCodeTOS": [],
+  "saveValuesTOS": []
+}

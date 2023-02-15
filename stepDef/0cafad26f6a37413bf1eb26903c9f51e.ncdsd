@@ -1,6 +1,6 @@
 {
   "id": "",
-  "description": "And enrolls the student user NoCodeBDDN1 to the courses \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\", \"NoCodeBDDP5\"",
+  "description": "And enrolls the student user3 to the courses \"NoCodeBDDP1\", \"NoCodeBDDP2\", \"NoCodeBDDP3\", \"NoCodeBDDP4\"",
   "scenarioId": "",
   "pos": 0,
   "dbConnectionTOs": [],
@@ -12,140 +12,140 @@
   "stepAssertSettingTOs": [],
   "stepRESTURLSettingTOs": [
     {
-      "id": "PWhRwHqPzs",
+      "id": "YGfYyVhoUL",
       "httpMethod": "POST",
       "url": "https://{{baseURL}}/course/{{firstCourseID}}/students",
-      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user5ID}}\",\n            \"email\": \"{{user5Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user3ID}}\",\n            \"email\": \"{{user3Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
       "requestBodyType": "raw",
-      "parentStepId": "fc6c199a3204f08bb0ba9350d74c8996",
+      "parentStepId": "0cafad26f6a37413bf1eb26903c9f51e",
       "position": 65535,
       "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
       "restParamTOs": [],
       "restHeaderTOs": [
         {
-          "id": "LVPtu3qkEK",
+          "id": "HrB3YLUtn3",
           "key": "Content-Type",
           "value": "application/json",
-          "stepRestUrlSettingId": "PWhRwHqPzs",
+          "stepRestUrlSettingId": "YGfYyVhoUL",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "wnnaz4dlNH",
+          "id": "9R3Z1KO9BM",
           "key": "User-Agent",
           "value": "NoCodeBDD",
-          "stepRestUrlSettingId": "PWhRwHqPzs",
+          "stepRestUrlSettingId": "YGfYyVhoUL",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "0vkEYi5IxA",
+          "id": "wAOhuyKNp7",
           "key": "Authorization",
           "value": "{{adminToken}}",
-          "stepRestUrlSettingId": "PWhRwHqPzs",
+          "stepRestUrlSettingId": "YGfYyVhoUL",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
       "restMultiPartTOs": []
     },
     {
-      "id": "0xcG8NsZYt",
+      "id": "Q43JPVKYj2",
       "httpMethod": "POST",
       "url": "https://{{baseURL}}/course/{{secondCourseID}}/students",
-      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user5ID}}\",\n            \"email\": \"{{user5Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user3ID}}\",\n            \"email\": \"{{user3Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
       "requestBodyType": "raw",
-      "parentStepId": "fc6c199a3204f08bb0ba9350d74c8996",
+      "parentStepId": "0cafad26f6a37413bf1eb26903c9f51e",
       "position": 131070,
       "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
       "restParamTOs": [],
       "restHeaderTOs": [
         {
-          "id": "8i2nwjeUSa",
+          "id": "0Wx0dK62QV",
           "key": "Content-Type",
           "value": "application/json",
-          "stepRestUrlSettingId": "0xcG8NsZYt",
+          "stepRestUrlSettingId": "Q43JPVKYj2",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "VjJ1BP7hWv",
+          "id": "bIh83aVvB2",
           "key": "User-Agent",
           "value": "NoCodeBDD",
-          "stepRestUrlSettingId": "0xcG8NsZYt",
+          "stepRestUrlSettingId": "Q43JPVKYj2",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "TOGaSnlxsG",
+          "id": "iARfY7VrVA",
           "key": "Authorization",
           "value": "{{adminToken}}",
-          "stepRestUrlSettingId": "0xcG8NsZYt",
+          "stepRestUrlSettingId": "Q43JPVKYj2",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
       "restMultiPartTOs": []
     },
     {
-      "id": "wou4H6hBII",
+      "id": "Ya1GRH2BKQ",
       "httpMethod": "POST",
       "url": "https://{{baseURL}}/course/{{thirdCourseID}}/students",
-      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user5ID}}\",\n            \"email\": \"{{user5Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user3ID}}\",\n            \"email\": \"{{user3Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
       "requestBodyType": "raw",
-      "parentStepId": "fc6c199a3204f08bb0ba9350d74c8996",
+      "parentStepId": "0cafad26f6a37413bf1eb26903c9f51e",
       "position": 196605,
       "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
       "restParamTOs": [],
       "restHeaderTOs": [
         {
-          "id": "fncVa4QUtz",
+          "id": "EXugC9Si6Q",
           "key": "Content-Type",
           "value": "application/json",
-          "stepRestUrlSettingId": "wou4H6hBII",
+          "stepRestUrlSettingId": "Ya1GRH2BKQ",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "C0LdlXZXR1",
+          "id": "xfPVZphUqk",
           "key": "User-Agent",
           "value": "NoCodeBDD",
-          "stepRestUrlSettingId": "wou4H6hBII",
+          "stepRestUrlSettingId": "Ya1GRH2BKQ",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "xCojOTq5hm",
+          "id": "z9lQGzqZ4d",
           "key": "Authorization",
           "value": "{{adminToken}}",
-          "stepRestUrlSettingId": "wou4H6hBII",
+          "stepRestUrlSettingId": "Ya1GRH2BKQ",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
       "restMultiPartTOs": []
     },
     {
-      "id": "Ptd4G5qPvn",
+      "id": "3uAUT4WImi",
       "httpMethod": "POST",
       "url": "https://{{baseURL}}/course/{{fourthCourseID}}/students",
-      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user5ID}}\",\n            \"email\": \"{{user5Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
+      "requestBody": "{\n    \"users\": [\n        {\n            \"user_id\": \"{{user3ID}}\",\n            \"email\": \"{{user3Email}}\"\n        }\n    ],\n    \"department_id\": [\n        \"{{departmentID}}\"\n    ],\n    \"branch_id\": [\n        \"{{branchID}}\"\n    ],\n    \"school_code\": \"{{schoolCode}}\"\n}",
       "requestBodyType": "raw",
-      "parentStepId": "fc6c199a3204f08bb0ba9350d74c8996",
+      "parentStepId": "0cafad26f6a37413bf1eb26903c9f51e",
       "position": 262140,
       "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
       "restParamTOs": [],
       "restHeaderTOs": [
         {
-          "id": "iHxPU2zquR",
+          "id": "xFxwOimhLl",
           "key": "Content-Type",
           "value": "application/json",
-          "stepRestUrlSettingId": "Ptd4G5qPvn",
+          "stepRestUrlSettingId": "3uAUT4WImi",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "3KXPnbYCbQ",
+          "id": "FfZrvLsAGr",
           "key": "User-Agent",
           "value": "NoCodeBDD",
-          "stepRestUrlSettingId": "Ptd4G5qPvn",
+          "stepRestUrlSettingId": "3uAUT4WImi",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         },
         {
-          "id": "Qg36PPbvmq",
+          "id": "tdY8d8clff",
           "key": "Authorization",
           "value": "{{adminToken}}",
-          "stepRestUrlSettingId": "Ptd4G5qPvn",
+          "stepRestUrlSettingId": "3uAUT4WImi",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530"
         }
       ],
