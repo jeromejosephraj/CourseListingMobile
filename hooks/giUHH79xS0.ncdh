@@ -30,6 +30,30 @@
             "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
           },
           {
+            "id": "Uysft9nZJl",
+            "stepId": "wCiRJcIay9",
+            "command": "resizeWindow",
+            "target": "320",
+            "value": "900",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "6RtZAzr4OT",
+            "stepId": "wCiRJcIay9",
+            "command": "waitForElementPresent",
+            "target": "//span[text()\u003d\"Sign In\"]",
+            "value": "5000",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "i7sdkBEd8M",
+            "stepId": "wCiRJcIay9",
+            "command": "click",
+            "target": "//span[text()\u003d\"Sign In\"]",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
             "id": "lTmmc5eqDB",
             "stepId": "wCiRJcIay9",
             "command": "defaultWaitForElementPresent",
@@ -48,9 +72,33 @@
           {
             "id": "Nv0B8QiuuJ",
             "stepId": "wCiRJcIay9",
-            "command": "type",
+            "command": "waitForElementPresent",
             "target": "//*[@id\u003d\"email\"]",
-            "value": "{{user5Email}}",
+            "value": "30000",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "3cRq5ciQFA",
+            "stepId": "wCiRJcIay9",
+            "command": "executeScriptAndSaveValue",
+            "target": "script1",
+            "value": "document.getElementById(\u0027email\u0027).value\u003d\"{{user5Email}}\"",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "NJ9NngNrD9",
+            "stepId": "wCiRJcIay9",
+            "command": "executeScriptAndSaveValue",
+            "target": "script2",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "KHonF473KS",
+            "stepId": "wCiRJcIay9",
+            "command": "executeScriptAndSaveValue",
+            "target": "script3",
+            "value": "",
             "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
           },
           {
@@ -75,6 +123,30 @@
             "command": "type",
             "target": "//*[@id\u003d\"password\"]",
             "value": "{{user5Password}}",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "HH0xmCGx73",
+            "stepId": "wCiRJcIay9",
+            "command": "executeScriptAndSaveValue",
+            "target": "script4",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "uMgw48nyKn",
+            "stepId": "wCiRJcIay9",
+            "command": "executeScriptAndSaveValue",
+            "target": "script5",
+            "value": "",
+            "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
+          },
+          {
+            "id": "DNZbIo0iae",
+            "stepId": "wCiRJcIay9",
+            "command": "executeScriptAndSaveValue",
+            "target": "script6",
+            "value": "",
             "parentStepId": "3a5bb8858254f0a6601cf984981cc15b"
           },
           {

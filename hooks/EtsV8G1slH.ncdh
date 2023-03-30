@@ -30,6 +30,30 @@
             "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
           },
           {
+            "id": "0IvQEU00Cs",
+            "stepId": "Ld3PYRgtgW",
+            "command": "resizeWindow",
+            "target": "320",
+            "value": "900",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "vUuYftMTQq",
+            "stepId": "Ld3PYRgtgW",
+            "command": "waitForElementPresent",
+            "target": "//span[text()\u003d\"Sign In\"]",
+            "value": "5000",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "471hRrNRH8",
+            "stepId": "Ld3PYRgtgW",
+            "command": "click",
+            "target": "//span[text()\u003d\"Sign In\"]",
+            "value": "",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
             "id": "mi3WLtHj9g",
             "stepId": "Ld3PYRgtgW",
             "command": "defaultWaitForElementPresent",
@@ -48,9 +72,33 @@
           {
             "id": "rMSbGlOKq4",
             "stepId": "Ld3PYRgtgW",
-            "command": "type",
+            "command": "waitForElementPresent",
             "target": "//*[@id\u003d\"email\"]",
-            "value": "{{user3Email}}",
+            "value": "30000",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "yfq66bU0Ne",
+            "stepId": "Ld3PYRgtgW",
+            "command": "executeScriptAndSaveValue",
+            "target": "script1",
+            "value": "document.getElementById(\u0027email\u0027).value\u003d\"{{user3Email}}\"",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "3Vn0BYBhFB",
+            "stepId": "Ld3PYRgtgW",
+            "command": "executeScriptAndSaveValue",
+            "target": "script2",
+            "value": "document.getElementById(\u0027email\u0027).dispatchEvent(new Event(\u0027change\u0027, { bubbles: true }))",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "8dCuwXUZYr",
+            "stepId": "Ld3PYRgtgW",
+            "command": "executeScriptAndSaveValue",
+            "target": "script3",
+            "value": "document.getElementById(\u0027email\u0027).dispatchEvent(new Event(\u0027input\u0027, { bubbles: true }))",
             "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
           },
           {
@@ -72,9 +120,33 @@
           {
             "id": "RlJjP5g32c",
             "stepId": "Ld3PYRgtgW",
-            "command": "type",
+            "command": "waitForElementPresent",
             "target": "//*[@id\u003d\"password\"]",
-            "value": "{{user3Password}}",
+            "value": "30000",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "HFnz0SpQ6P",
+            "stepId": "Ld3PYRgtgW",
+            "command": "executeScriptAndSaveValue",
+            "target": "script4",
+            "value": "document.getElementById(\u0027password\u0027).value\u003d\"{{user3Password}}\"",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "B9Qs7IYqty",
+            "stepId": "Ld3PYRgtgW",
+            "command": "executeScriptAndSaveValue",
+            "target": "script5",
+            "value": "document.getElementById(\u0027password\u0027).dispatchEvent(new Event(\u0027change\u0027, { bubbles: true }))",
+            "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
+          },
+          {
+            "id": "fBuJLKLQLf",
+            "stepId": "Ld3PYRgtgW",
+            "command": "executeScriptAndSaveValue",
+            "target": "script6",
+            "value": "document.getElementById(\u0027password\u0027).dispatchEvent(new Event(\u0027input\u0027, { bubbles: true }))",
             "parentStepId": "8d049a1ac0ba5e67ccf5a2ea7fa3af90"
           },
           {

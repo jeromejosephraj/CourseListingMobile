@@ -62,7 +62,7 @@
         "id": "V4q7e6PSBx",
         "httpMethod": "DELETE",
         "url": "https://{{baseURL}}/courses",
-        "requestBody": "{\n    \"c_ids\": [\n        \"{{secondCourseID}}\"\n    ]\n}",
+        "requestBody": "{\n    \"c_ids\": [\n        \"{{expSecondCourseID}}\"\n    ]\n}",
         "requestBodyType": "raw",
         "stepId": "XHSZeYSBVs",
         "parentStepId": "0ce872800d76d850c5b2591ea54c0e31",
