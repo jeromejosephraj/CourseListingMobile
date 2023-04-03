@@ -15,14 +15,14 @@
         {
           "id": "Huh4tVB9wG",
           "command": "click",
-          "target": "//*[@id\u003d\"overflowIssue\"]/div[2]/div",
+          "target": "//span[@id\u003d\"filterTitleID\"]",
           "value": "",
           "parentStepId": "605dc30b8f96264ecc00510f9aadefcc"
         },
         {
           "id": "HqBnPAwTck",
           "command": "click",
-          "target": "//span[text()\u003d\u0027Progress\u0027]",
+          "target": "//a[@id\u003d\"p-tabpanel-2-label\"]",
           "value": "",
           "parentStepId": "605dc30b8f96264ecc00510f9aadefcc"
         },
