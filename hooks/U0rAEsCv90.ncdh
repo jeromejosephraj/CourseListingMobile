@@ -38,22 +38,6 @@
             "parentStepId": "052a70631a5464dab300e034589b6b41"
           },
           {
-            "id": "d7MWeCGPsD",
-            "stepId": "pw3igQCGt1",
-            "command": "waitForElementPresent",
-            "target": "//span[text()\u003d\"Sign In\"]",
-            "value": "5000",
-            "parentStepId": "052a70631a5464dab300e034589b6b41"
-          },
-          {
-            "id": "WFSOqnA5Ab",
-            "stepId": "pw3igQCGt1",
-            "command": "click",
-            "target": "//span[text()\u003d\"Sign In\"]",
-            "value": "",
-            "parentStepId": "052a70631a5464dab300e034589b6b41"
-          },
-          {
             "id": "2MYTxIth5A",
             "stepId": "pw3igQCGt1",
             "command": "defaultWaitForElementPresent",
