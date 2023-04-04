@@ -22,7 +22,7 @@
         {
           "id": "HqBnPAwTck",
           "command": "click",
-          "target": "//a[@id\u003d\"p-tabpanel-2-label\"]",
+          "target": "//*[@id\u003d\"p-tabpanel-6-label\"]/span",
           "value": "",
           "parentStepId": "605dc30b8f96264ecc00510f9aadefcc"
         },

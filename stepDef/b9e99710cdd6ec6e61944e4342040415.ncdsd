@@ -15,14 +15,7 @@
         {
           "id": "9zBLQI13Sd",
           "command": "click",
-          "target": "//*[@id\u003d\"overflowIssue\"]/div[2]/div",
-          "value": "",
-          "parentStepId": "b9e99710cdd6ec6e61944e4342040415"
-        },
-        {
-          "id": "8H1bL0dMF5",
-          "command": "click",
-          "target": "//*[@id\u003d\"p-tabpanel-0-label\"]",
+          "target": "//a[@id\u003d\"p-tabpanel-2-label\"]",
           "value": "",
           "parentStepId": "b9e99710cdd6ec6e61944e4342040415"
         }
