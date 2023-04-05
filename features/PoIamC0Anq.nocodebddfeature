@@ -1,7 +1,7 @@
 {
   "id": "PoIamC0Anq",
   "description": "Mobile Course List - Sort",
-  "pos": 40238488,
+  "pos": 40435093,
   "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
   "scenarioTOS": [
     {
@@ -371,7 +371,7 @@
         },
         {
           "id": "b9tHfIXV9D",
-          "description": "When student selects a sort \" Complete percent: 100% - 0% \" using sort dropdown",
+          "description": "When student selects a sort \" Completion percent: 100% - 0% \" using sort dropdown",
           "scenarioId": "HvzYGgxjUw",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 168957,
@@ -885,7 +885,7 @@
         },
         {
           "id": "1QNIhzKoQc",
-          "description": "When student selects a sort \" Complete percent: 0% - 100% \" using sort dropdown",
+          "description": "When student selects a sort \" Completion percent: 0% - 100% \" using sort dropdown",
           "scenarioId": "43r32WidyL",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 458745,

@@ -15,7 +15,7 @@
         {
           "id": "9zBLQI13Sd",
           "command": "click",
-          "target": "//a[@id\u003d\"p-tabpanel-2-label\"]",
+          "target": "//span[@id\u003d\"filterTitleID\"]",
           "value": "",
           "parentStepId": "b9e99710cdd6ec6e61944e4342040415"
         }

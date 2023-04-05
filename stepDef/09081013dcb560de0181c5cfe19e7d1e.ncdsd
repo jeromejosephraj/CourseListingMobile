@@ -1,6 +1,6 @@
 {
   "id": "",
-  "description": "And student selects progress menu",
+  "description": "And student selects status menu",
   "scenarioId": "",
   "pos": 0,
   "dbConnectionTOs": [],
@@ -8,16 +8,16 @@
   "dbAssertTOs": [],
   "uiTOs": [
     {
-      "id": "snrEtAeWac",
+      "id": "2o042X80Rf",
       "position": 65535,
-      "parentStepId": "9a784a6d24804cf2fc0652868e4f0471",
+      "parentStepId": "09081013dcb560de0181c5cfe19e7d1e",
       "params": [
         {
-          "id": "pGBXZxRGwB",
+          "id": "3R8ceWMsVx",
           "command": "click",
-          "target": "//a[@id\u003d\"p-tabpanel-2-label\"]",
+          "target": "//span[text()\u003d\"Status\"]",
           "value": "",
-          "parentStepId": "9a784a6d24804cf2fc0652868e4f0471"
+          "parentStepId": "09081013dcb560de0181c5cfe19e7d1e"
         }
       ]
     }

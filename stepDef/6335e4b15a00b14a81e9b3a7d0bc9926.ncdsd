@@ -15,7 +15,7 @@
         {
           "id": "PdGW3pU3CA",
           "command": "click",
-          "target": "/html/body/app-root/div/div/app-header/div/div[2]/div/div/div[1]/div[1]/img",
+          "target": "//img[@alt\u003d\"hamburger\"]",
           "value": "",
           "parentStepId": "6335e4b15a00b14a81e9b3a7d0bc9926"
         },

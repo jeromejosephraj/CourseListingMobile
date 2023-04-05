@@ -34,10 +34,10 @@
           "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
         },
         {
-          "id": "TG2CqvbaFb",
+          "id": "LI67MfByWt",
           "command": "gettext",
           "target": "(//*[@id\u003d\"mobBadgeTitleID\"])[3]",
-          "value": "Super Badges",
+          "value": "Badges",
           "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
         },
         {
@@ -48,10 +48,10 @@
           "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
         },
         {
-          "id": "LI67MfByWt",
+          "id": "TG2CqvbaFb",
           "command": "gettext",
           "target": "(//*[@id\u003d\"mobBadgeTitleID\"])[4]",
-          "value": "Badges",
+          "value": "Super Badges",
           "parentStepId": "8e30088dfc28534a669ce1d0aafcc925"
         }
       ]

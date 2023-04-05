@@ -1,7 +1,7 @@
 {
   "id": "MntIsyhsza",
   "description": "Mobile Course List - Filter",
-  "pos": 40172953,
+  "pos": 40566163,
   "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
   "scenarioTOS": [
     {
@@ -266,7 +266,7 @@
         },
         {
           "id": "W0l5dJ6IH2",
-          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\"",
+          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\" and enrolls the student user2",
           "scenarioId": "YKGwqZH1nB",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 204796,

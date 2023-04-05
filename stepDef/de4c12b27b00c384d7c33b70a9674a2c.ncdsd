@@ -23,7 +23,7 @@
           "id": "sjpvW4sIrJ",
           "command": "gettext",
           "target": "//*[@id\u003d\"p-tabpanel-0-label\"]/span",
-          "value": "Progress",
+          "value": "Status",
           "parentStepId": "de4c12b27b00c384d7c33b70a9674a2c"
         },
         {

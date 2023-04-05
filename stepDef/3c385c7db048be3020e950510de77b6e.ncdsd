@@ -29,15 +29,15 @@
         {
           "id": "442L9WdC1F",
           "command": "gettext",
-          "target": "//label[text()\u003d\"Complete percent: 100% - 0%\"]",
-          "value": "Complete percent: 100% - 0%",
+          "target": "//label[text()\u003d\"Completion percent: 100% - 0%\"]",
+          "value": "Completion percent: 100% - 0%",
           "parentStepId": "3c385c7db048be3020e950510de77b6e"
         },
         {
           "id": "vQ7HUUu4wE",
           "command": "gettext",
-          "target": "//label[text()\u003d\"Complete percent: 0% - 100%\"]",
-          "value": "Complete percent: 0% - 100%",
+          "target": "//label[text()\u003d\"Completion percent: 0% - 100%\"]",
+          "value": "Completion percent: 0% - 100%",
           "parentStepId": "3c385c7db048be3020e950510de77b6e"
         },
         {

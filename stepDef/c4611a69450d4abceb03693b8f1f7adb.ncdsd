@@ -1,6 +1,6 @@
 {
   "id": "",
-  "description": "Then student should view all progress options",
+  "description": "Then student should view all status options",
   "scenarioId": "",
   "pos": 0,
   "dbConnectionTOs": [],
@@ -8,37 +8,37 @@
   "dbAssertTOs": [],
   "uiTOs": [
     {
-      "id": "EB8NNcUqIc",
+      "id": "CoBS2ygBzd",
       "position": 65535,
-      "parentStepId": "8be1f7b36c76764410998f3383fefa37",
+      "parentStepId": "c4611a69450d4abceb03693b8f1f7adb",
       "params": [
         {
-          "id": "L5H5vIvlBG",
+          "id": "LJNMTpxMFO",
           "command": "gettext",
           "target": "(//*[@id\u003d\"optionLabelID\"])[1]",
           "value": "Active",
-          "parentStepId": "8be1f7b36c76764410998f3383fefa37"
+          "parentStepId": "c4611a69450d4abceb03693b8f1f7adb"
         },
         {
-          "id": "Xoh0byxIic",
+          "id": "0enRZ21KTL",
           "command": "gettext",
           "target": "(//*[@id\u003d\"optionLabelID\"])[2]",
           "value": "Completed",
-          "parentStepId": "8be1f7b36c76764410998f3383fefa37"
+          "parentStepId": "c4611a69450d4abceb03693b8f1f7adb"
         },
         {
-          "id": "PgipHiBYMf",
+          "id": "K9UUX8UnTq",
           "command": "gettext",
           "target": "(//*[@id\u003d\"optionLabelID\"])[3]",
           "value": "Enrolled",
-          "parentStepId": "8be1f7b36c76764410998f3383fefa37"
+          "parentStepId": "c4611a69450d4abceb03693b8f1f7adb"
         },
         {
-          "id": "EEp3VYNQoj",
+          "id": "hqDsgXKa3E",
           "command": "gettext",
           "target": "(//*[@id\u003d\"optionLabelID\"])[4]",
           "value": "Expired",
-          "parentStepId": "8be1f7b36c76764410998f3383fefa37"
+          "parentStepId": "c4611a69450d4abceb03693b8f1f7adb"
         }
       ]
     }

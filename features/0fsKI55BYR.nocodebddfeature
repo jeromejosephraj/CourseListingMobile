@@ -1,7 +1,7 @@
 {
   "id": "0fsKI55BYR",
   "description": "Mobile - Filter",
-  "pos": 39714208,
+  "pos": 40369558,
   "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
   "scenarioTOS": [
     {
@@ -418,7 +418,7 @@
         },
         {
           "id": "7INGQXmccL",
-          "description": "And student selects progress menu",
+          "description": "And student selects status menu",
           "scenarioId": "23Zv1epSsv",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 163837,
@@ -441,7 +441,7 @@
         },
         {
           "id": "BrM9Q5Irm8",
-          "description": "Then student should view all progress options",
+          "description": "Then student should view all status options",
           "scenarioId": "23Zv1epSsv",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 196605,
@@ -580,7 +580,7 @@
         },
         {
           "id": "arFFkGhFEr",
-          "description": "And student selects progress menu",
+          "description": "And student selects status menu",
           "scenarioId": "2XzQ176cm6",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 196605,

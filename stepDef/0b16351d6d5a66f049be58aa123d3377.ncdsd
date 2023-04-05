@@ -15,14 +15,14 @@
         {
           "id": "mG2aE7esOe",
           "command": "gettext",
-          "target": "//*[@id\u003d\"courseCardID-1\"]/div/div[2]",
+          "target": "//div[text()\u003d\"NoCodeBDDP1\"]",
           "value": "NoCodeBDDP1",
           "parentStepId": "0b16351d6d5a66f049be58aa123d3377"
         },
         {
           "id": "Mw19HnF0rp",
           "command": "gettext",
-          "target": "//*[@id\u003d\"courseCardID-2\"]/div/div[2]",
+          "target": "//div[text()\u003d\"NoCodeBDDP2\"]",
           "value": "NoCodeBDDP2",
           "parentStepId": "0b16351d6d5a66f049be58aa123d3377"
         },

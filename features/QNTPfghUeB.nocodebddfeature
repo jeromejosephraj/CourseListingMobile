@@ -1,7 +1,7 @@
 {
   "id": "QNTPfghUeB",
   "description": "Course List- Mobile - Filter options",
-  "pos": 40107418,
+  "pos": 40762768,
   "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
   "scenarioTOS": [
     {
@@ -59,7 +59,7 @@
         },
         {
           "id": "4Cxv1CW3We",
-          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\"",
+          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\" and enrolls the student user3",
           "scenarioId": "smvLb5GVuI",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 196605,
@@ -243,7 +243,7 @@
         },
         {
           "id": "xkFpQq7Gjg",
-          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\"",
+          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\" and enrolls the student user3",
           "scenarioId": "L0j0dr88TY",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 262140,
@@ -427,7 +427,7 @@
         },
         {
           "id": "7owMsjgi80",
-          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\"",
+          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\" and enrolls the student user3",
           "scenarioId": "JhUaGDJvkS",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 262140,
@@ -588,7 +588,7 @@
         },
         {
           "id": "v7zi9C7xZR",
-          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\"",
+          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\" and enrolls the student user3",
           "scenarioId": "fMMyPWnmgr",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 262140,
@@ -749,7 +749,7 @@
         },
         {
           "id": "pfGk3ZobDP",
-          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\"",
+          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\" and enrolls the student user3",
           "scenarioId": "OjlgYaTwYH",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 262140,
@@ -910,7 +910,7 @@
         },
         {
           "id": "s59htY9AKX",
-          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\"",
+          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\" and enrolls the student user3",
           "scenarioId": "QHVp87gxRH",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 262140,
@@ -1204,7 +1204,7 @@
         },
         {
           "id": "McgvlYMLEO",
-          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\"",
+          "description": "When admin creates expired courses with names \"Logical Reasoning\", \"Advanced Java\" and enrolls the student user3",
           "scenarioId": "POqsjtP4SE",
           "createdTimeStamp": "2021-08-03T21:37:50.940+0530",
           "pos": 262140,
